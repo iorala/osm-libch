@@ -24,11 +24,12 @@
 
 ## Regarding library coordinates
 
-Not all libraries in the OSM are nodes. Some are entered as a way, which means that instead of latitude and longitude they have a polygon ith several coordinates
+Not all libraries in the OSM are nodes. Some are entered as a way, which means that instead of latitude and longitude they have a polygon
+with several coordinates
 
 e.g. 
 
-```
+```json
 "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -60,4 +61,3 @@ e.g.
 
 For osm-libch output this needs to be converted to one coordinate (lon,lat)
 As we need it for small maps at a low zoom level currently just the first coordinate pair will be used 
-
