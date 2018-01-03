@@ -1,0 +1,55 @@
+{
+  "type": "way",
+  "id": 180885479,
+  "nodes": [
+    1913371383,
+    266864463,
+    266864446,
+    1913371376,
+    1913371389,
+    266864455,
+    1913371381,
+    1913371391,
+    1913371386,
+    1913371388,
+    1913371392,
+    1913371383
+  ],
+  "tags": {
+    "addr:housenumber": "22",
+    "addr:street": "Bettlistrasse",
+    "amenity": "library",
+    "building": "yes",
+    "contact:phone": "+41 44 8018353",
+    "contact:website": "http://www.duebendorf.ch/de/verwaltung/aemter/?amt_id=11029",
+    "name": "Stadtbibliothek Dübendorf"
+  }
+},
+
+{
+  "type": "node",
+  "id": 1913371383,
+  "lat": 47.3983256,
+  "lon": 8.6239376
+},
+
+
+{
+  "type": "node",
+  "id": 56698073,
+  "lat": 47.2415699,
+  "lon": 8.7313425,
+  "tags": {
+    "addr:city": "Stäfa",
+    "addr:country": "CH",
+    "addr:housenumber": "35",
+    "addr:postcode": "8712",
+    "addr:street": "Tränkebachstrasse",
+    "amenity": "library",
+    "contact:email": "bibliothek@lesegesellschaft.ch",
+    "contact:phone": "+41 44 927 21 80",
+    "contact:website": "http://www.lesegesellschaft.ch/bibliothek/",
+    "name": "Gemeindebibliothek Stäfa",
+    "ref:isil": "CH-001606-9"
+  }
+},

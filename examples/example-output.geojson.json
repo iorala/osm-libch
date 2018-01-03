@@ -1,0 +1,3308 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo (CH)",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "41317",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/56698073",
+        "addr:city": "Stäfa",
+        "addr:country": "CH",
+        "addr:housenumber": "35",
+        "addr:postcode": "8712",
+        "addr:street": "Tränkebachstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@lesegesellschaft.ch",
+        "contact:phone": "+41 44 927 21 80",
+        "contact:website": "http://www.lesegesellschaft.ch/bibliothek/",
+        "name": "Gemeindebibliothek Stäfa",
+        "ref:isil": "CH-001606-9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7313425,
+          47.2415699
+        ]
+      },
+      "id": "node/56698073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/135656954",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "379",
+        "addr:postcode": "8050",
+        "addr:street": "Hofwiesenstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 312 77 37",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/oerlikon/",
+        "name": "Pestalozzi-Bibliothek Oerlikon",
+        "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-16:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Oerlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5452197,
+          47.4117889
+        ]
+      },
+      "id": "node/135656954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269120294",
+        "addr:city": "Uster",
+        "addr:country": "CH",
+        "addr:housenumber": "17",
+        "addr:postcode": "8610",
+        "addr:street": "Bankstrasse",
+        "amenity": "library",
+        "contact:email": "info@stadtbibliothek-uster.ch",
+        "contact:phone": "+41 44 944 77 50",
+        "contact:website": "http://www.stadtbibliothek-uster.ch",
+        "name": "Stadt- und Regionalbibilothek",
+        "ref:isil": "CH-000533-6",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7166889,
+          47.3509925
+        ]
+      },
+      "id": "node/269120294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281389898",
+        "addr:city": "Richterswil",
+        "addr:country": "CH",
+        "addr:housenumber": "8",
+        "addr:postcode": "8805",
+        "addr:street": "Friedenstrasse",
+        "amenity": "library",
+        "contact:email": "bibi.richterswil@bluewin.ch",
+        "contact:phone": "+41 44 785 00 78",
+        "contact:website": "http://bibliothek-richterswil.ch/",
+        "name": "Gemeindebibliothek Richterswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7063687,
+          47.2060385
+        ]
+      },
+      "id": "node/281389898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/282951414",
+        "addr:city": "Fällanden",
+        "addr:housenumber": "10",
+        "addr:street": "Schwerzenbachstrasse",
+        "amenity": "library",
+        "contact:email": "gemeindebibliothek@faellanden.ch",
+        "contact:phone": "+41 44 825 51 05",
+        "contact:website": "http://www.faellanden.ch/de/bibliotheken/",
+        "name": "Gemeindebibliothek Fällanden",
+        "opening_hours": "Mo 16:00-19:30; Tu 09:00-11:00; We 16:00-18:30; Fr 16:00-18:15; Sa 08:30-11:30",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6405361,
+          47.37181
+        ]
+      },
+      "id": "node/282951414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/298540240",
+        "addr:city": "Langnau am Albis",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "8135",
+        "addr:street": "Höflistrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@langnau.zh.ch",
+        "contact:fax": "+41 44 7132521",
+        "contact:phone": "+41 44 7135640",
+        "contact:website": "http://www.langnauamalbis.ch/de/bildung/bibliotheken/",
+        "name": "Gemeinde- und Schulbibliothek Langnau",
+        "opening_hours": "Mo,Tu 15:00-19:00; We 14:00-17:00; Th,Sa 09:00-12:00; Fr 17:00-20:00",
+        "opening_hours:holidays": "Mo 15:00-19:00; Th 09:00-12:00",
+        "operator": "Gemeinde Langnau",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5403154,
+          47.2888967
+        ]
+      },
+      "id": "node/298540240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/310858280",
+        "addr:city": "Niederhasli",
+        "addr:country": "CH",
+        "addr:housenumber": "20",
+        "addr:postcode": "8155",
+        "addr:street": "Spitzstrasse",
+        "amenity": "library",
+        "contact:email": "info@mediothek-niederhasli.ch",
+        "contact:phone": "+41 44 850 21 33",
+        "contact:website": "http://www.mediothek-niederhasli.ch/",
+        "name": "Mediothek Niederhasli",
+        "operator": "Gemeinde Niederhasli",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4876734,
+          47.4804422
+        ]
+      },
+      "id": "node/310858280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316855129",
+        "addr:city": "Fehraltorf",
+        "addr:country": "CH",
+        "addr:housename": "Schulhaus Dorf",
+        "addr:housenumber": "56",
+        "addr:postcode": "8320",
+        "addr:street": "Kempttalstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@fehraltorf.ch",
+        "contact:phone": "+41 43 355 77 55",
+        "contact:website": "http://www.fehraltorf.ch/bibliothek",
+        "name": "Gemeindebibliothek Fehraltorf",
+        "opening_hours": "Mo 15:00-19:00; We 16:30-19:00; Th 10:00-11:00; Fr 18:00-20:30; Sa 10:00-11:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7526997,
+          47.38725
+        ]
+      },
+      "id": "node/316855129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/335707549",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "184",
+        "addr:postcode": "8057",
+        "addr:street": "Scheuchzerstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 362 15 02",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/unterstrass/",
+        "name": "Pestalozzi-Bibliothek Unterstrass",
+        "opening_hours": "Tu-Fr 14:00-19:00; Sa 10:00-14:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Unterstrass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5425411,
+          47.3946186
+        ]
+      },
+      "id": "node/335707549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/336307325",
+        "addr:city": "Maur",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8124",
+        "addr:street": "Mühlestrasse",
+        "amenity": "library",
+        "contact:email": "maur@bibliothek-maur.ch",
+        "contact:phone": "+41 44 8876064",
+        "contact:website": "http://www.bibliothek-maur.ch/",
+        "name": "Gemeinde- und Schulbibliothek Maur",
+        "opening_hours": "Mo 15:00-17:30; Tu 15:00-17:00; Th 18:30-20:00; Sa 09:30-11:00",
+        "opening_hours:holidays": "Th 18:30-20:00",
+        "operator": "Schule Maur",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6693751,
+          47.3401355
+        ]
+      },
+      "id": "node/336307325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340573569",
+        "addr:city": "Ebmatingen",
+        "addr:country": "CH",
+        "addr:housenumber": "6",
+        "addr:postcode": "8123",
+        "addr:street": "Leeacherstrasse",
+        "amenity": "library",
+        "contact:email": "ebmatingen@bibliothek-maur.ch",
+        "contact:phone": "+41 44 9800489",
+        "contact:website": "http://www.bibliothek-maur.ch/",
+        "name": "Bibliothek Ebmatingen",
+        "opening_hours": "Mo 15:00-17:00; Tu 09:30-11:00; Th 15:30-17:00,18:30-20:00; Fr 15:30-17:00",
+        "opening_hours:holidays": "Th 18:30-20:00",
+        "operator": "Schule Maur",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6376009,
+          47.3526839
+        ]
+      },
+      "id": "node/340573569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340577844",
+        "addr:city": "Forch",
+        "addr:country": "CH",
+        "addr:housenumber": "8",
+        "addr:postcode": "8127",
+        "addr:street": "Aeschstrasse",
+        "amenity": "library",
+        "contact:email": "aesch-forch@bibliothek-maur.ch",
+        "contact:phone": "+41 44 806 15 99",
+        "contact:website": "http://www.bibliothek-maur.ch/",
+        "name": "Bibliothek Aesch-Forch",
+        "opening_hours": "Mo,Th 15:30-17:30; We 17:30-19:30; Fr 15:00-16:30",
+        "opening_hours:holidays": "We 17:30-19:30",
+        "operator": "Schule Maur",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6575376,
+          47.3265897
+        ]
+      },
+      "id": "node/340577844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380229633",
+        "addr:city": "Kloten",
+        "addr:country": "CH",
+        "addr:housenumber": "20",
+        "addr:postcode": "8302",
+        "addr:street": "Kirchgasse",
+        "amenity": "library",
+        "contact:email": "stadtbibliothek@kloten.ch",
+        "contact:facebook": "https://www.facebook.com/Stadtbibliothek.Kloten",
+        "contact:phone": "+41 44 8131188",
+        "contact:website": "http://www.schluefweg.ch/de/bibliothek/",
+        "name": "Stadtbibliothek Kloten",
+        "opening_hours": "Tu 09:00-19:00; We,Th 14:00-19:00; Fr 09:00-11:00,14:00-19:00; Sa 09:00-13:00",
+        "operator": "Stadt Kloten",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5835226,
+          47.4518212
+        ]
+      },
+      "id": "node/380229633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/423795510",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "190",
+        "addr:postcode": "8049",
+        "addr:street": "Ackersteinstrasse",
+        "alt_name": "Quartierbibliothek Höngg",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 341 88 26",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-and-oeffnungszeiten/hoengg/",
+        "name": "Pestalozzi-Bibliothek Höngg",
+        "opening_hours": "Tu,Fr 15:00-19:00; We 10:00-12:00, 14:00-17:00; Sa 10:00-13:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Höngg",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5001545,
+          47.40091
+        ]
+      },
+      "id": "node/423795510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443709421",
+        "addr:city": "Affoltern am Albis",
+        "addr:country": "CH",
+        "addr:housenumber": "14",
+        "addr:postcode": "8910",
+        "addr:street": "Obere Seewadelstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@affoltern-am-albis.ch",
+        "contact:phone": "+41 44 7614409",
+        "contact:website": "http://www.bibliothek-affoltern.ch",
+        "name": "Regionalbibliothek Affoltern am Albis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4461815,
+          47.2777506
+        ]
+      },
+      "id": "node/443709421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/452108334",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "8045",
+        "addr:street": "Kalanderplatz",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 43 817 67 11",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/sihlcity/",
+        "name": "Pestalozzi-Bibliothek Sihlcity",
+        "opening_hours": "Tu-Fr 12:00-19:00; Sa 10:00-16:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Sihlcity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5220917,
+          47.3580425
+        ]
+      },
+      "id": "node/452108334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/504607023",
+        "addr:city": "Mettmenstetten",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8932",
+        "addr:street": "Schulhausstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.mettmenstetten@bluewin.ch",
+        "contact:phone": "+41 44 767 93 80",
+        "contact:website": "https://www.bibliothek-mettmenstetten.ch/",
+        "name": "Bibliothek Mettmenstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4654869,
+          47.2457641
+        ]
+      },
+      "id": "node/504607023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/546169501",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "12",
+        "addr:postcode": "8045",
+        "addr:street": "Grubenstrasse",
+        "amenity": "library",
+        "contact:email": "info@sbs.ch",
+        "contact:phone": "+41 43 333 32 32",
+        "contact:website": "http://www.sbs.ch",
+        "name": "Schweizerische Bibliothek für Blinde und Seh- und Lesebehinderte",
+        "operator": "SBS",
+        "ref:isil": "CH-001330-8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5164583,
+          47.3619717
+        ]
+      },
+      "id": "node/546169501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569985497",
+        "addr:city": "Horgen",
+        "addr:country": "CH",
+        "addr:housenumber": "26",
+        "addr:postcode": "8810",
+        "addr:street": "Alte Landstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.horgen@bluewin.ch",
+        "contact:phone": "+41 44 7253568",
+        "contact:website": "http://www.horgen.ch/de/bildunggesellschaft/bildung/bibliotheken/",
+        "name": "Gemeindeblibliothek Horgen",
+        "opening_hours": "Mo-Fr 14:00-17:00; Tu 09:00-11:00,16:00-19:00; Th 16:00-19:00; Sa 09:00-13:00",
+        "opening_hours:holidays": "Tu 09:00-12:00; Th 16:00-19:00; Sa 09:00-13:00",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5963298,
+          47.2603582
+        ]
+      },
+      "id": "node/569985497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/574859192",
+        "addr:city": "Dietikon",
+        "addr:country": "CH",
+        "addr:housenumber": "20",
+        "addr:postcode": "8953",
+        "addr:street": "Bremgartnerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@dietikon.ch",
+        "contact:phone": "+41 44 7443636",
+        "contact:website": "http://www.dietikon.ch/de/verwaltung/unterinstanzen/?amt_id=8239",
+        "name": "Stadt- und Regionalbibliothek Dietikon",
+        "opening_hours": "Mo-Tu,Th 09:00-12:00,14:00-18:00; We 09:00-12:00,14:00-19:00; Fr 09:00-18:00; Sa 10:00-13:00; PH closed",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4013249,
+          47.4031901
+        ]
+      },
+      "id": "node/574859192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/598295604",
+        "addr:city": "Thalwil",
+        "addr:country": "CH",
+        "addr:housenumber": "32",
+        "addr:postcode": "8800",
+        "addr:street": "Freiestrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.thalwil@swissonline.ch",
+        "contact:phone": "+41 44 720 99 29",
+        "contact:website": "http://www.thalwil.ch/de/dorfleben/freizeit/bibliotheken/",
+        "name": "Gemeindebibliothek Rosengarten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5634461,
+          47.2930659
+        ]
+      },
+      "id": "node/598295604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615174078",
+        "amenity": "library",
+        "name": "Bibliothek Zollikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5758115,
+          47.3381961
+        ]
+      },
+      "id": "node/615174078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/694632568",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "531",
+        "addr:postcode": "8051",
+        "addr:street": "Winterthurerstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 322 46 10",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/schwamendingen/",
+        "name": "Pestalozzi-Bibliothek Schwamendingen",
+        "opening_hours": "Mo-Fr 14:00-19:00; We 10:00-19:00; Sa 10:00-15:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Schwamendingen",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5733296,
+          47.4044871
+        ]
+      },
+      "id": "node/694632568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/725590431",
+        "addr:city": "Uetikon",
+        "addr:country": "CH",
+        "addr:housenumber": "105",
+        "addr:postcode": "8707",
+        "addr:street": "Bergstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@uetikonamsee.ch",
+        "contact:phone": "+41 44 922 71 81",
+        "contact:website": "http://www.uetikonamsee.ch/de/kulturundfreizeit/kultur/bibliothek/",
+        "name": "Bibliothek Uetikon",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6769831,
+          47.2633667
+        ]
+      },
+      "id": "node/725590431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/749913783",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "3",
+        "addr:postcode": "8400",
+        "addr:street": "Spitalgasse",
+        "amenity": "library",
+        "contact:email": "info@ludothek-winterthur.ch",
+        "contact:phone": "+41 52 212 66 76",
+        "contact:website": "https://www.ludothek-winterthur.ch/",
+        "name": "Ludothek Altstadt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.727239,
+          47.4987277
+        ]
+      },
+      "id": "node/749913783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/960446894",
+        "addr:city": "Dättlikon",
+        "addr:country": "CH",
+        "addr:housenumber": "3",
+        "addr:postcode": "8421",
+        "addr:street": "Schulstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@daettlikon.ch",
+        "contact:phone": "+41 52 301 04 47",
+        "contact:website": "http://daettlikon.biblioweb.ch/",
+        "name": "Gemeinde- und Schulbibliothek Dättlikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6214674,
+          47.5247524
+        ]
+      },
+      "id": "node/960446894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1076935433",
+        "amenity": "library",
+        "name": "Bibliothek der Sekundarschule Stägenbuck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6200338,
+          47.4030167
+        ]
+      },
+      "id": "node/1076935433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1123685030",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "50",
+        "addr:postcode": "8004",
+        "addr:street": "Zweierstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 241 73 44",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/aussersihl/",
+        "name": "Pestalozzi-Bibliothek Aussersihl",
+        "opening_hours": "Tu-Fr 12:00-19:00; Sa 10:00-14:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Aussersihl",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5244577,
+          47.3726268
+        ]
+      },
+      "id": "node/1123685030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1139385164",
+        "amenity": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6660472,
+          47.1750469
+        ]
+      },
+      "id": "node/1139385164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1231014926",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "37",
+        "addr:postcode": "8093",
+        "addr:street": "Hönggerbergring",
+        "amenity": "library",
+        "contact:email": "hdb@library.ethz.ch",
+        "contact:phone": "+41 44 633 24 10",
+        "contact:website": "http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/ETH-Bibliothek-HDB",
+        "name": "ETH-Bibliothek HDB",
+        "operator": "ETH-Bibliothek",
+        "ref:isil": "CH-000003-X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5089383,
+          47.4110021
+        ]
+      },
+      "id": "node/1231014926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1266634400",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "40",
+        "addr:postcode": "8001",
+        "addr:street": "Pelikanstrasse",
+        "amenity": "library",
+        "contact:email": "kitab@vmz.uzh.ch",
+        "contact:phone": "+41 44 634 90 31",
+        "contact:website": "http://www.musethno.uzh.ch/de/bibliothek.html",
+        "name": "Bibliothek der Völkerkunden",
+        "operator": "Universität Zürich",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5342686,
+          47.3707781
+        ]
+      },
+      "id": "node/1266634400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1349700235",
+        "addr:city": "Illnau",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8308",
+        "addr:street": "Weisslingerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@illnau.ch",
+        "contact:phone": "+41 52 3462401",
+        "contact:website": "http://www.bibliotheksverein.ch/illnau/",
+        "name": "Bibliothek Illnau",
+        "opening_hours": "Tu,Th 15:00-17:30; We 09:00-11:00,15:00-17:30; Fr 16:30-19:00; Sa 09:30-12:00",
+        "operator": "Bibliotheksverein Illnau",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7265095,
+          47.4080853
+        ]
+      },
+      "id": "node/1349700235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1425992747",
+        "addr:city": "Zollikerberg",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8125",
+        "addr:street": "Binzstrasse",
+        "amenity": "library",
+        "contact:email": "bibiberg@zollikon.ch",
+        "contact:phone": "+41 44 395 34 86",
+        "contact:website": "http://www.zollikon.ch/de/tourismus/bibliotheken/?action=showbibi&bibi_id=56",
+        "name": "Bibliothek Zollikerberg",
+        "operator": "Gemeinde Zollikon",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6044811,
+          47.3461932
+        ]
+      },
+      "id": "node/1425992747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1661244430",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8037",
+        "addr:street": "Rosengartenstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek-fermento@riseup.net",
+        "description": "anarchistische Bibliothek",
+        "description:en": "anarchist library",
+        "name": "Fermento",
+        "opening_hours": "We 17:00-21:00; Sa 14:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5252546,
+          47.3940307
+        ]
+      },
+      "id": "node/1661244430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1673631721",
+        "addr:city": "Herrliberg",
+        "addr:country": "CH",
+        "addr:housenumber": "37",
+        "addr:postcode": "8704",
+        "addr:street": "Schulhausstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@schule-herrliberg.ch",
+        "contact:phone": "+41 58 211 85 20",
+        "contact:website": "http://www.schule-herrliberg.ch/freizeitmenu/gemeinde-und-schulbibliothek",
+        "name": "Gemeinde- und Schulbibliothek Herrliberg",
+        "opening_hours": "Mo,Fr 09:30-11:00,16:00-19:00; We,Th 09:30-11:00,15:00-17:00; Sa 09:30-12:00",
+        "opening_hours:holidays": "Mo,Fr 16:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6131443,
+          47.2881414
+        ]
+      },
+      "id": "node/1673631721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1733290644",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "14",
+        "addr:postcode": "8032",
+        "addr:street": "Plattenstrasse",
+        "amenity": "library",
+        "contact:email": "bfb@business.uzh.ch",
+        "contact:phone": "+41 44 634 29 78",
+        "contact:website": "http://www.business.uzh.ch/de/library.html",
+        "name": "Bibliothek für Betriebswirtschaft, BfB",
+        "operator": "Universität Zürich, Institut für Betriebswirtschaftslehre",
+        "ref:isil": "CH-000340-X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5527496,
+          47.3741461
+        ]
+      },
+      "id": "node/1733290644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1733487730",
+        "addr:city": "Nänikon",
+        "addr:country": "CH",
+        "addr:housenumber": "49",
+        "addr:postcode": "8606",
+        "addr:street": "Stationsstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@oswueri.ch",
+        "contact:phone": "+41 4 905 70 40",
+        "contact:website": "http://www.naenikon.ch/dorf/bibliothek/",
+        "name": "Bibliothek Nänikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6894393,
+          47.3694022
+        ]
+      },
+      "id": "node/1733487730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1749578536",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "102",
+        "addr:postcode": "8406",
+        "addr:street": "Zürcherstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.toess@win.ch",
+        "contact:phone": "+41 52 267 30 46",
+        "contact:website": "http://bibliotheken.winterthur.ch/toess/oeffnungszeiten-kontakt/",
+        "level": "1",
+        "name": "Bibliothek Töss",
+        "operator": "Winterthurer Bibliotheken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7059014,
+          47.49173
+        ]
+      },
+      "id": "node/1749578536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1768116716",
+        "amenity": "library",
+        "name": "Gemeindebibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7932318,
+          47.5505905
+        ]
+      },
+      "id": "node/1768116716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1811516813",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "8093",
+        "addr:street": "Wolfgang-Pauli-Strasse",
+        "amenity": "library",
+        "contact:email": "library@phys.ethz.ch",
+        "contact:phone": "+41 44 633 25 60",
+        "contact:website": "https://www.phys.ethz.ch/de/dienste-und-berufsbildung/physikbibliothek.html",
+        "name": "Physikbibliothek",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "operator": "Departement Physik ETH Zürich",
+        "ref:isil": "CH-000802-6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.508407,
+          47.410111
+        ]
+      },
+      "id": "node/1811516813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1834165627",
+        "amenity": "library",
+        "name": "Bibliothek",
+        "opening_hours": "Mo-Fr 15:30-18:30; Th 18:30-20:30; Sa 10:00-12:00; SH We 15:30-18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7901756,
+          47.5224302
+        ]
+      },
+      "id": "node/1834165627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837685160",
+        "addr:city": "Nürensdorf",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8309",
+        "addr:street": "Lindauerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@nuerensdorf.ch",
+        "contact:phone": "+41 44 836 99 10",
+        "contact:website": "https://www.nuerensdorf.ch/freizeit--kultur/bibliothek.html/41",
+        "name": "Gemeinde- und Schulbibliothek Nürensdorf",
+        "operator": "Gemeinde Nürensdorf",
+        "ref:isil": "*",
+        "source": "Stonebirdultra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6492685,
+          47.4469456
+        ]
+      },
+      "id": "node/1837685160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838508084",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "8093",
+        "addr:street": "Stefano-Franscini-Platz",
+        "amenity": "library",
+        "contact:email": "baubib@library.ethz.ch",
+        "name": "Baubibliothek (1. OG)",
+        "opening_hours": "Mo-Fr 08:00-21:00",
+        "operator": "ETH Bibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5074605,
+          47.4086387
+        ]
+      },
+      "id": "node/1838508084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1904525083",
+        "addr:city": "Greifensee",
+        "addr:country": "CH",
+        "addr:postcode": "8606",
+        "addr:street": "Schulhaus Breiti",
+        "amenity": "library",
+        "contact:email": "bibliothek@primgreif.ch",
+        "contact:phone": "+41 44 940 96 08",
+        "contact:website": "http://www.greifensee.ch/de/bildung/bildungbibliothek/",
+        "name": "Schul- und Gemeindebibliothek Greifensee",
+        "opening_hours": "Mo-Fr 15:30-19:00; Tu 15:30-20:30; Sa 14:00-17:00",
+        "opening_hours:holidays": "Mo-Fr 15:30-19:00; Tu 15:30-20:30; Th off; Sa 14:00-17:00",
+        "source": "http://www.greifensee.ch/de/bildung/bildungbibliothek/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6773261,
+          47.367658
+        ]
+      },
+      "id": "node/1904525083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905617375",
+        "amenity": "library",
+        "name": "Bibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5001804,
+          47.4941387
+        ]
+      },
+      "id": "node/1905617375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1909993709",
+        "addr:city": "Bülach",
+        "addr:country": "CH",
+        "addr:housenumber": "35",
+        "addr:postcode": "8180",
+        "addr:street": "Marktgasse",
+        "amenity": "library",
+        "contact:email": "bibli.buelach@bluewin.ch",
+        "contact:phone": "+41 44 8601181",
+        "contact:website": "http://www.bibliothek-buelach.ch",
+        "name": "Stadtbibliothek Bülach",
+        "operator": "Stadt Bülach",
+        "ref:isil": "CH-001844-0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5413789,
+          47.5169331
+        ]
+      },
+      "id": "node/1909993709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1927809802",
+        "addr:city": "Hombrechtikon",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8634",
+        "addr:street": "Schulweg",
+        "amenity": "library",
+        "contact:email": "bibliothek.hombi@bluewin.ch",
+        "contact:phone": "+41 55 2442973",
+        "contact:website": "http://www.schulehombrechtikon.ch/p19000224.html",
+        "name": "Schul- und Gemeindebibliothek Hombrechtikon",
+        "opening_hours": "Mo,Fr 10:00-12:00,15:30-17:30; Tu,Th 17:30-19:30; We 10:00-12:00,17:30-19:30; Sa 10:00-12:00",
+        "opening_hours:holidays": "Th 17:30-19:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7652716,
+          47.2519015
+        ]
+      },
+      "id": "node/1927809802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1970603606",
+        "addr:city": "Oetwil am See",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8618",
+        "addr:street": "Schulhausstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.oetwil@bluewin.ch",
+        "contact:phone": "+41 43 8448850",
+        "contact:website": "http://www.schule-oetwil.ch/index.php?page_request=112&id=23",
+        "name": "Schul- und Gemeindebibliothek Oetwil am See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7214778,
+          47.270902
+        ]
+      },
+      "id": "node/1970603606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1978236586",
+        "addr:city": "Andelfingen",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8450",
+        "addr:street": "Hofwiesenstrasse",
+        "amenity": "library",
+        "contact:email": "info@bibliothek-andelfingen.ch",
+        "contact:phone": "+41 52 304 30 47",
+        "contact:website": "http://www.bibliothek-andelfingen.ch",
+        "name": "Schul- und Gemeindebibliothek Andelfingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6766915,
+          47.5963001
+        ]
+      },
+      "id": "node/1978236586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1978268294",
+        "addr:housenumber": "2",
+        "addr:street": "Kirchstrasse",
+        "amenity": "library",
+        "contact:email": "mediothek@baeretswil.ch",
+        "contact:phone": "+41 44 9399051",
+        "contact:website": "http://www.baeretswil.ch/de/bildung/mediothek/",
+        "name": "Mediothek Bäretswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8561836,
+          47.3367859
+        ]
+      },
+      "id": "node/1978268294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1983375272",
+        "addr:city": "Birmensdorf (ZH)",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8903",
+        "addr:street": "Dorfstrasse",
+        "amenity": "library",
+        "contact:email": "bibi.birmensdorf@bluewin.ch",
+        "contact:phone": "+41 44 7373147",
+        "contact:website": "http://www.birmensdorf.ch/de/freizeitkultur/gemeindebibliothek/",
+        "name": "Gemeindebibliothek Birmensdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4390506,
+          47.3537146
+        ]
+      },
+      "id": "node/1983375272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1983385023",
+        "addr:city": "Bonstetten",
+        "addr:country": "CH",
+        "addr:housenumber": "91",
+        "addr:postcode": "8906",
+        "addr:street": "Schachenstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@primarschule-bonstetten.ch",
+        "contact:phone": "+41 44 7003567",
+        "contact:website": "http://www.primarschule-bonstetten.ch/de/schulugemeindebibliothek/",
+        "name": "Gemeinde- und Schulbibliothek Bonstetten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4717123,
+          47.3222508
+        ]
+      },
+      "id": "node/1983385023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1983394640",
+        "addr:city": "Brütten",
+        "addr:country": "CH",
+        "addr:housenumber": "7",
+        "addr:postcode": "8311",
+        "addr:street": "Brüelgasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@bruetten.ch",
+        "contact:phone": "+41 52 3451037",
+        "contact:website": "http://www.bibliothek-bruetten.ch",
+        "fixme": "find exact position inside the building",
+        "name": "Gemeinde- und Schulbibliothek Brütten",
+        "operator": "Gemeinde Brütten",
+        "ref:isil": "*",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6757854,
+          47.4729662
+        ]
+      },
+      "id": "node/1983394640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1983439657",
+        "addr:city": "Wangen-Brüttisellen",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "8306",
+        "addr:street": "Bruggwiesenstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@bruggwiesen.ch",
+        "contact:phone": "+41 44 8053170",
+        "contact:website": "http://www.bibliothek.bruggwiesen.ch/",
+        "name": "Bibliothek Wangen-Brüttisellen",
+        "operator": "Gemeinde Wangen-Brüttisellen",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6284213,
+          47.4217597
+        ]
+      },
+      "id": "node/1983439657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1986944294",
+        "addr:city": "Buchs",
+        "addr:country": "CH",
+        "addr:housenumber": "9",
+        "addr:postcode": "8107",
+        "addr:street": "Zihlstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@buchs.zh.ch",
+        "contact:phone": "+41 44 8440556",
+        "contact:website": "http://www.bibliothek-buchs.ch",
+        "name": "Schul- und Gemeindebibliothek Buchs",
+        "operator": "Gemeinde Buchs",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4334452,
+          47.4598434
+        ]
+      },
+      "id": "node/1986944294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1986985043",
+        "addr:city": "Dällikon",
+        "addr:country": "CH",
+        "addr:housenumber": "3",
+        "addr:postcode": "8108",
+        "addr:street": "Schulhaus Lepünt",
+        "amenity": "library",
+        "contact:email": "mediothek.daellikon@bluewin.ch",
+        "contact:phone": "+41 44 8497018",
+        "contact:website": "http://www.mediothek-daellikon.ch",
+        "name": "Mediothek Dällikon",
+        "operator": "Gemeinde Dällikon",
+        "ref:isil": "*",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4388886,
+          47.4384058
+        ]
+      },
+      "id": "node/1986985043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1986993984",
+        "addr:city": "Dielsdorf",
+        "addr:country": "CH",
+        "addr:housenumber": "7",
+        "addr:postcode": "8157",
+        "addr:street": "Früeblistrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek-dielsdorf@vtxmail.ch",
+        "contact:phone": "+41 44 8532351",
+        "contact:website": "http://www.dielsdorf.ch/de/bildungbetreuung/schule/bibliotheken/",
+        "name": "Gemeinde- und Schulbibliothek Dielsdorf",
+        "operator": "Gemeinde Dielsdorf",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4558401,
+          47.4812352
+        ]
+      },
+      "id": "node/1986993984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1990180457",
+        "addr:city": "Effretikon",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "8307",
+        "addr:street": "Märtplatz",
+        "amenity": "library",
+        "contact:email": "bibliothek@effretikon.ch",
+        "contact:phone": "+41 52 3542448",
+        "contact:website": "http://www.bibliotheksverein.ch/effretikon",
+        "name": "Stadtbibliothek Effretikon",
+        "operator": "Gemeinde Effretikon",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6859905,
+          47.4275892
+        ]
+      },
+      "id": "node/1990180457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2281238715",
+        "addr:city": "Elgg",
+        "addr:country": "CH",
+        "addr:housenumber": "21",
+        "addr:postcode": "8353",
+        "addr:street": "Seegartenstrasse",
+        "amenity": "library",
+        "contact:email": "gemeindebibliothek@schule-elgg.ch",
+        "contact:phone": "+41 52 3686463",
+        "contact:website": "http://www.schule-elgg.ch/p152000946.html",
+        "fixme": "find correct location; add holidays to opening_hours",
+        "name": "Gemeinde- und Schulbibliothek Elgg",
+        "opening_hours": "Mo,Th 14:00-17:00; Tu,Fr 18:30-20:30; Sa 09:30-11:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8666299,
+          47.4955892
+        ]
+      },
+      "id": "node/2281238715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2281262880",
+        "addr:city": "Elsau",
+        "addr:country": "CH",
+        "addr:housenumber": "13",
+        "addr:postcode": "8352",
+        "addr:street": "Elsauerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.elsau@bluewin.ch",
+        "contact:phone": "+41 52 3632480",
+        "contact:website": "http://www.elsau.ch/de/bibliothekn/aktuellbibliothek/",
+        "fixme": "find correct location; add holidays to opening_hours",
+        "name": "Bibliothek Elsau",
+        "opening_hours": "Tu,Fr 16:30-18:30; We 14:00-15:30; Sa 10:00-11:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8018008,
+          47.5019375
+        ]
+      },
+      "id": "node/2281262880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2289464475",
+        "addr:city": "Zumikon",
+        "addr:country": "CH",
+        "addr:housenumber": "9",
+        "addr:postcode": "8126",
+        "addr:street": "Dorfplatz",
+        "amenity": "library",
+        "contact:email": "bibliothek@schule-zumikon.ch",
+        "contact:phone": "+41 44 209 98 80",
+        "contact:website": "http://www.schule-zumikon.ch/de/bibliothek/gemeindebibliothek/",
+        "name": "Bibliothek Zumikon",
+        "ref:isil": "*",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6229296,
+          47.3318558
+        ]
+      },
+      "id": "node/2289464475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330415207",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "8048",
+        "addr:street": "Lindenplatz",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 431 27 60",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/altstetten/",
+        "level": "1",
+        "name": "Pestalozzi-Bibliothek Altstetten",
+        "opening_hours": "Mo-Fr 12:00-19:00; Sa 10:00-14:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Altstetten",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4860788,
+          47.3871962
+        ]
+      },
+      "id": "node/2330415207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2333320949",
+        "addr:city": "Embrach",
+        "addr:country": "CH",
+        "addr:housenumber": "21",
+        "addr:postcode": "8424",
+        "addr:street": "Rheinstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek_embrach@bluewin.ch",
+        "contact:phone": "+41 44 8653340",
+        "contact:website": "http://kulturembrach.ch/bibliothek/",
+        "name": "Bibliothek Embrach",
+        "opening_hours": "Mo 15:00-19:30; We,Fr 16:30-20:00; Th 09:00-11:00,15:00-19:30; Sa 10:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5883936,
+          47.5176906
+        ]
+      },
+      "id": "node/2333320949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2333350802",
+        "addr:city": "Erlenbach",
+        "addr:country": "CH",
+        "addr:housenumber": "40",
+        "addr:postcode": "8703",
+        "addr:street": "Schulhausstrasse",
+        "amenity": "library",
+        "contact:email": "gemeindebibliothek@erlenbach.ch",
+        "contact:phone": "+41 44 910 55 18",
+        "contact:website": "http://www.schule-erlenbach.ch/bibliothek",
+        "name": "Gemeindebibliothek Erlenbach",
+        "opening_hours": "Mo 17:30-20:00; We 09:30-12:00,15:30-18:30; Th,Fr 15:30-18:30; Sa 09:30-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5935561,
+          47.3024969
+        ]
+      },
+      "id": "node/2333350802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2338495070",
+        "addr:country": "CH",
+        "addr:street": "Am Dorfplatz",
+        "amenity": "library",
+        "contact:email": "bibliothek.geroldswil@bluewin.ch",
+        "contact:phone": "+41 44 748 26 24",
+        "contact:website": "http://www.geroldswil.ch/bibliothek",
+        "fixme": "find exact position",
+        "name": "Bibliothek Geroldswil",
+        "opening_hours": "Tu 17:00-21:00; We,Th 15:00-19:00; Sa 09:30-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4098175,
+          47.4228916
+        ]
+      },
+      "id": "node/2338495070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349712247",
+        "addr:city": "Hausen am Albis",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8915",
+        "addr:street": "Zugerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@hausen.zh.ch",
+        "contact:phone": "+41 44 764 21 73",
+        "contact:website": "http://www.hausen.ch/de/bilgesel/bibliotheken/",
+        "name": "Bibliothek Hausen am Albis",
+        "opening_hours": "Tu 14:30-18:00; Oct-Mar: We 14:00-16:00; Th 09:00-11:00,15:00-20:00; Sa 09:30-11:30",
+        "opening_hours:holidays": "Th 18:00-20:00",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5334263,
+          47.2435954
+        ]
+      },
+      "id": "node/2349712247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352501301",
+        "addr:city": "Hettlingen",
+        "addr:country": "CH",
+        "addr:housenumber": "14",
+        "addr:postcode": "8442",
+        "addr:street": "Schulstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@hettlingen.ch",
+        "contact:phone": "+41 52 316 19 38",
+        "contact:website": "http://www.hettlingen.ch/de/tourismus/bibliotheken/",
+        "name": "Gemeinde- und Schulbibliothek Hettlingen",
+        "opening_hours": "Mo 17:00-20:00; Tu,Th 15:00-17:30; Sa 09:00-12:00",
+        "opening_hours:holidays": "Mo 17:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7055557,
+          47.54854
+        ]
+      },
+      "id": "node/2352501301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352513765",
+        "addr:city": "Wernetshausen",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8342",
+        "addr:street": "Schulweg",
+        "amenity": "library",
+        "contact:email": "bibliothek.wernetshausen@schulehinwil.ch",
+        "contact:phone": "+41 43 843 07 54",
+        "contact:website": "https://www.wernetshausen.ch/bibliothek/",
+        "fixme": "find exact position",
+        "name": "Dorfbibliothek Wernetshausen",
+        "opening_hours": "Mo 19:00-20:00; Tu 08:40-11:00; Th 12:30-13:30,19:00-20:00; Fr 15:15-16:30",
+        "opening_hours:holidays": "Th 19:00-20:00",
+        "opening_hours:voting_sundays": "Su 10:00-11:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8656894,
+          47.298016
+        ]
+      },
+      "id": "node/2352513765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2362950167",
+        "addr:city": "Hirzel",
+        "addr:country": "CH",
+        "addr:housenumber": "56b",
+        "addr:postcode": "8816",
+        "addr:street": "Dorfstrasse",
+        "amenity": "library",
+        "contact:email": "info@bibliothek-hirzel.ch",
+        "contact:phone": "+41 79 481 66 64",
+        "contact:website": "http://www.hirzel.ch/freizeit_kultur_sport/bibliothek",
+        "fixme": "find exact postition",
+        "name": "Schul- und Gemeindebibliothek Hirzel",
+        "opening_hours": "Mo 15:00-17:30,19:00-20:00; We,Th 09:00-10:30; Sa 10:00-11:30",
+        "opening_hours:holidays": "Mo-Su off",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6074636,
+          47.2161026
+        ]
+      },
+      "id": "node/2362950167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2386011427",
+        "amenity": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4622272,
+          47.2241879
+        ]
+      },
+      "id": "node/2386011427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2424761977",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "71",
+        "addr:postcode": "8404",
+        "addr:street": "Ida-Sträuli-Strasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.hegi@win.ch",
+        "contact:phone": "+41 52 267 27 24",
+        "contact:website": "http://bibliotheken.winterthur.ch/hegi/oeffnungszeiten-kontakt/",
+        "name": "Bibliothek Hegi",
+        "operator": "Winterthurer Bibliotheken",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7661667,
+          47.504637
+        ]
+      },
+      "id": "node/2424761977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2463562697",
+        "addr:city": "Rafz",
+        "addr:country": "CH",
+        "addr:housenumber": "7",
+        "addr:postcode": "8197",
+        "addr:street": "Dorfstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@rafz.ch",
+        "contact:phone": "+41 44 879 77 07",
+        "contact:website": "http://www.rafz.ch/de/tourismus/bibliotheken/",
+        "name": "Gemeindebibliothek Rafz",
+        "operator": "Gemeinde Rafz",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5363741,
+          47.6138009
+        ]
+      },
+      "id": "node/2463562697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2468324003",
+        "addr:city": "Wald ZH",
+        "addr:county": "CH",
+        "addr:housenumber": "12 a",
+        "addr:postcode": "8636",
+        "addr:street": "Schlipf",
+        "amenity": "library",
+        "contact:email": "bibliothek@wald.zh.ch",
+        "contact:phone": "+41 55 246 48 26",
+        "contact:website": "http://www.wald.zh.ch/de/verwaltung/dienstleistungen/?dienst_id=23028",
+        "internet_access": "yes",
+        "name": "Gemeindebibliothek Wald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9154897,
+          47.2754262
+        ]
+      },
+      "id": "node/2468324003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2475828863",
+        "addr:city": "Niederweningen",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8166",
+        "addr:street": "Alte Stationsstrasse",
+        "amenity": "library",
+        "contact:email": "mediothek@niederweningen.ch",
+        "contact:phone": "+41 44 875 0221",
+        "contact:website": "http://www.mediothek-niederweningen.ch",
+        "name": "Mediothek Niederweningen",
+        "opening_hours": "Mo,Th 15:00-20:00; Tu,We,Fr 15:00-18:00; Sa 11:00-13:00; Dec 24-Dec 31 off",
+        "operator": "Gemeinde Niederweningen",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3800914,
+          47.5071907
+        ]
+      },
+      "id": "node/2475828863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2563925462",
+        "amenity": "library",
+        "name": "Gemeindebibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4699401,
+          47.4352679
+        ]
+      },
+      "id": "node/2563925462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609713569",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "12",
+        "addr:postcode": "8001",
+        "addr:street": "Stadelhoferstrasse",
+        "amenity": "library",
+        "contact:email": "kontakt@sozialarchiv.ch",
+        "contact:phone": "+41 43 268 87 50",
+        "contact:website": "https://www.sozialarchiv.ch/bibliothek/",
+        "name": "Schweizerisches Sozialarchiv",
+        "opening_hours": "Mo-Fr 08:00-19:30; Sa 09:00-16:00",
+        "operator": "Verein Schweizerisches Sozialarchiv",
+        "ref:isil": "CH-000080-9",
+        "source": "http://www.sozialarchiv.ch/startseite/",
+        "wheelchair": "no",
+        "wikidata": "Q2256734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5475301,
+          47.3667971
+        ]
+      },
+      "id": "node/2609713569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609723057",
+        "addr:city": "Zürich",
+        "addr:housename": "HG",
+        "addr:housenumber": "101",
+        "addr:postcode": "8092",
+        "addr:street": "Rämistrasse",
+        "amenity": "library",
+        "contact:email": "info@gs.ethz.ch",
+        "contact:phone": "+41 44 632 40 46",
+        "contact:website": "http://www.gs.ethz.ch/index.html",
+        "name": "Graphische Sammlung",
+        "name:zh": "版画收藏馆",
+        "opening_hours": "\"Der Austellungsraum ist nur während der 3-4 Wechselausstellungen im Jahr geöffnet\"",
+        "operator": "ETH-Bibliothek Zürich",
+        "ref:isil": "CH-000511-9",
+        "source": "http://www.gs.ethz.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5475949,
+          47.3758394
+        ]
+      },
+      "id": "node/2609723057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609734695",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8021",
+        "addr:street": "Museumstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@snm.admin.ch",
+        "contact:phone": "+41 44 218 65 31",
+        "contact:website": "http://www.landesmuseen.ch/d/zuerich/dienstleistungen/bibliothek/index.php",
+        "name": "Bibliothek des Schweizerischen Nationalmuseums",
+        "operator": "Schweizerisches Nationalmuseum",
+        "ref:isil": "CH-000468-6",
+        "source": "http://www.landesmuseen.ch/d/zuerich/dienstleistungen/bibliothek/index.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5409969,
+          47.3790124
+        ]
+      },
+      "id": "node/2609734695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609792667",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "HG",
+        "addr:housenumber": "101",
+        "addr:postcode": "8092",
+        "addr:street": "Rämistrasse",
+        "amenity": "library",
+        "contact:email": "info@library.ethz.ch",
+        "contact:phone": "+41 44 632 21 35",
+        "contact:website": "http://www.library.ethz.ch/de",
+        "name": "ETH-Bibliothek",
+        "opening_hours": "Mo-Fr 08:00-21:45, Sa,Su 09:00-16:45",
+        "operator": "ETH Zürich",
+        "ref:isil": "CH-000003-X",
+        "source": "http://www.library.ethz.ch/de",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5481666,
+          47.3764545
+        ]
+      },
+      "id": "node/2609792667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609805220",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "CHN",
+        "addr:housenumber": "16",
+        "addr:postcode": "8092",
+        "addr:street": "Universitätstrasse",
+        "amenity": "library",
+        "contact:email": "gruene_bibliothek@library.ethz.ch",
+        "name": "Grüne Bibliothek",
+        "operator": "ETH-Bibliothek",
+        "phone": "+41 44 632 85 78",
+        "ref:isil": "CH-001888-5",
+        "source": "http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/Gruene-Bibliothek",
+        "website": "http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/Gruene-Bibliothek",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5486877,
+          47.3789092
+        ]
+      },
+      "id": "node/2609805220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609816688",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "IFW",
+        "addr:housenumber": "4",
+        "addr:postcode": "8092",
+        "addr:street": "Haldeneggsteig",
+        "amenity": "library",
+        "contact:email": "gessbib@library.ethz.ch",
+        "contact:phone": "+41 44 632 74 80",
+        "contact:website": "http://www.library.ethz.ch/de/Kontakt/Standorte-Adressen-Oeffnungszeiten/GESS-Bibliothek",
+        "name": "GESS-Bibliothek",
+        "operator": "ETH-Bibliothek",
+        "ref:isil": "CH-001891-0",
+        "source": "http://www.library.ethz.ch/de/Kontakt/Standorte-Adressen-Oeffnungszeiten/GESS-Bibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5447287,
+          47.3802178
+        ]
+      },
+      "id": "node/2609816688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2610630638",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "62",
+        "addr:postcode": "8001",
+        "addr:street": "Limmatquai",
+        "amenity": "library",
+        "contact:email": "*",
+        "contact:phone": "+41 44 254 50 05",
+        "contact:website": "http://www.museumsgesellschaft.ch/bibliothek",
+        "name": "Bibliothek der Museumsgesellschaft",
+        "operator": "Museumsgesellschaft",
+        "ref:isil": "CH-000586-X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5429945,
+          47.3719579
+        ]
+      },
+      "id": "node/2610630638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2610741331",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "33",
+        "addr:postcode": "8002",
+        "addr:street": "Bederstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@prosenectute.ch",
+        "contact:phone": "+41 44 283 89 81",
+        "contact:website": "http://www.prosenectutebiblio.ch",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Pro Senectute Bibliothek",
+        "opening_hours": "Mo-Fr 09:00-16:00, Tu 09:00-18:00, Th 09:00-18:00",
+        "operator": "Pro Senectute Schweiz",
+        "ref:isil": "CH-001495-8",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5293262,
+          47.3640137
+        ]
+      },
+      "id": "node/2610741331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2610751005",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "Stadthaus",
+        "addr:housenumber": "17",
+        "addr:postcode": "8001",
+        "addr:street": "Stadthausquai",
+        "amenity": "library",
+        "contact:email": "https://www.stadt-zuerich.ch/prd/de/index/gleichstellung/bibliothek.secure.html#kontakt",
+        "contact:phone": "+41 44 412 48 68",
+        "contact:website": "https://www.stadt-zuerich.ch/prd/de/index/gleichstellung/bibliothek.secure.html",
+        "name": "Fachbibliothek zur Gleichstellung von Frau und Mann",
+        "ref:isil": "CH-001416-4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5413776,
+          47.3692542
+        ]
+      },
+      "id": "node/2610751005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2628802032",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8093",
+        "addr:street": "Vladimir-Prelog-Weg",
+        "amenity": "library",
+        "contact:email": "infodesk@chem.ethz.ch",
+        "contact:phone": "+41446323066",
+        "contact:website": "https://www.chab.ethz.ch/das-departement/services/infozentrum.html",
+        "level": "2",
+        "name": "Infozentrum Chemie Biologie Pharmazie",
+        "operator": "Departement Chemie und Angewandte Biowissenschaften",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5077944,
+          47.4076686
+        ]
+      },
+      "id": "node/2628802032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645338885",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "TFA",
+        "addr:housenumber": "260",
+        "addr:postcode": "8057",
+        "addr:street": "Winterthurerstrasse",
+        "amenity": "library",
+        "contact:email": "services@vetbiblio.uzh.ch",
+        "contact:phone": "+41 44 635 8125",
+        "contact:website": "http://www.vetbiblio.uzh.ch/ihttp://www.vetbiblio.uzh.ch/de.htmlndex.html",
+        "name": "Bibliothek der Vetsuisse-Fakultät",
+        "operator": "Universität Zürich",
+        "ref:isil": "CH-000591-X",
+        "source": "http://www.vetbiblio.uzh.ch/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5511197,
+          47.4006538
+        ]
+      },
+      "id": "node/2645338885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645346692",
+        "addr:city": "Rikon",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8486",
+        "addr:street": "Wildbergstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@tibet-institut.ch",
+        "contact:phone": "+41 52 383 17 29",
+        "contact:website": "http://www.tibet-institut.ch/index.html",
+        "name": "Bibliothek Tibet-Institut",
+        "operator": "Universität Zürich",
+        "ref:isil": "CH-001629-3",
+        "source": "http://www.tibet-institut.ch/index.html",
+        "wikidata": "Q3152652",
+        "wikipedia": "de:Tibet-Institut Rikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8027461,
+          47.4365632
+        ]
+      },
+      "id": "node/2645346692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645356297",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "Villa Schönberg",
+        "addr:housenumber": "14",
+        "addr:postcode": "8002",
+        "addr:street": "Gablerstrasse",
+        "amenity": "library",
+        "contact:email": "josef.huber@zuerich.ch",
+        "contact:phone": "+41 44 415 31 01",
+        "contact:website": "http://www.rietberg.ch/de-ch/ihr-besuch/bibliothek.aspx",
+        "name": "Bibliothek Museum Rietberg",
+        "operator": "Museum Rietberg",
+        "ref:isil": "CH-001319-0",
+        "source": "http://www.rietberg.ch/de-ch/ihr-besuch/bibliothek.aspx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5302071,
+          47.3595265
+        ]
+      },
+      "id": "node/2645356297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2650508227",
+        "addr:city": "Kilchberg",
+        "addr:country": "CH",
+        "addr:housenumber": "110",
+        "addr:postcode": "8802",
+        "addr:street": "Alte Landstrasse",
+        "amenity": "library",
+        "contact:email": "gemeindebibliothek@kilchberg.ch",
+        "contact:phone": "+41 44 7163290",
+        "contact:website": "http://www.kilchberg.ch/bibliothek",
+        "fixme": "Find exact position",
+        "name": "Gemeindeblibliothek Kilchberg",
+        "opening_hours": "Tu 18:00-20:00; We 09:00-11:00,16:00-18:00; Th 17:00-19:00; Sa 10:00-12:00",
+        "opening_hours:holidays": "Tu 18:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5451472,
+          47.3245579
+        ]
+      },
+      "id": "node/2650508227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2801035182",
+        "addr:city": "Rheinau",
+        "addr:country": "CH",
+        "addr:housenumber": "13",
+        "addr:postcode": "8642",
+        "addr:street": "Schulstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@primarschule-rheinau.ch",
+        "contact:phone": "+41 52 319 19 40",
+        "contact:website": "http://www.primarschule-rheinau.ch/bibliothek",
+        "name": "Bibliothek Rheinau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6015866,
+          47.6431661
+        ]
+      },
+      "id": "node/2801035182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2814988529",
+        "addr:city": "Bassersdorf",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8303",
+        "addr:street": "Klotenerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@bassersdorf.ch",
+        "contact:phone": "0041 44 838 86 60",
+        "contact:website": "https://www.bassersdorf.ch/verwaltung/abteilungen/bildung-familie/bibliothek.html/188",
+        "name": "Gemeindebibliothek Bassersdorf",
+        "operator": "Gemeinde Bassersdorf",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6282386,
+          47.4433077
+        ]
+      },
+      "id": "node/2814988529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2946597845",
+        "addr:city": "Wolfhausen",
+        "addr:country": "CH",
+        "addr:housenumber": "11",
+        "addr:postcode": "8633",
+        "addr:street": "Schulstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.wolfhausen@schule-bubikon.ch",
+        "contact:phone": "+41 55 253 35 50",
+        "contact:website": "http://www.schule-bubikon.ch/p22007293.html",
+        "name": "Schul- und Gemeindebibliothek Wolfhausen",
+        "opening_hours": "Mo 18:30-20:00; Tu 15:00-17:00; Th 15:00-17:00,18:30-20:00; Sa 10:00-12:00",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8044941,
+          47.2570207
+        ]
+      },
+      "id": "node/2946597845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3000150547",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "73",
+        "addr:postcode": "8041",
+        "addr:street": "Rebenstrasse",
+        "amenity": "library",
+        "contact:phone": "+41 44 482 81 88",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/leimbach/",
+        "name": "Pestalozzi-Bibliothek Leimbach",
+        "opening_hours": "Tu-Fr 14:00-18:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Leimbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5149403,
+          47.333352
+        ]
+      },
+      "id": "node/3000150547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124410279",
+        "addr:city": "Russikon",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8332",
+        "addr:street": "Madetswilerstrasse",
+        "amenity": "library",
+        "contact:email": "info@bibliothek-russikon.ch",
+        "contact:phone": "+41 44 954 04 61",
+        "contact:website": "http://www.bibliothek-russikon.ch/",
+        "name": "Bibliothek Russikon",
+        "opening_hours": "Mo 15:00-18:00; Tu 15:00-20:00; We 15:00-18:00; Th 10:00-12:00, 15:00-18:00; Fr 18:00-20:00; Sa 10:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7770191,
+          47.3942903
+        ]
+      },
+      "id": "node/3124410279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3131243822",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "151",
+        "addr:postcode": "8404",
+        "addr:street": "Römerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek.oberwinterthur@win.ch",
+        "contact:phone": "+41 52 267 27 02",
+        "contact:website": "http://bibliotheken.winterthur.ch/oberwinterthur/oeffnungszeiten-kontakt/",
+        "name": "Bibliothek Oberwinterthur",
+        "operator": "Winterthurer Bibliotheken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7532486,
+          47.5069935
+        ]
+      },
+      "id": "node/3131243822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3191284684",
+        "amenity": "library",
+        "email": "info@bibli-wila.ch",
+        "name": "Bibliothek",
+        "note": "Unterhaltungslektüre, Sachbücher, Jugend-, Kinder- und Bilderbücher, Comics, Kassetten, CDs, CD-ROM, DVDs und Spiele.",
+        "opening_hours": "Mo,Th 15:15-17:00; Tu 18:00-20:00; Sa 10:00-12:00; SH Mo,Th off",
+        "phone": "+41 52 385 13 21",
+        "website": "http://www.bibli-wila.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8468527,
+          47.4229634
+        ]
+      },
+      "id": "node/3191284684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3191413038",
+        "addr:city": "Schlatt",
+        "addr:housenumber": "79",
+        "addr:postcode": "8418",
+        "addr:street": "Waltensteinstrasse",
+        "amenity": "library",
+        "name": "Schul- und Gemeindebibliothek Schlatt",
+        "note": "Während den Sommerferien ist die Bibliothek nur jeweils Mo von 18:00- 19:00 geöffnet.",
+        "opening_hours": "Mo 15:30-16:30,19:30-20:30; Th 15:30-16:30",
+        "website": "http://www.schule-schlatt.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8269897,
+          47.4738085
+        ]
+      },
+      "id": "node/3191413038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3314274507",
+        "addr:city": "Hinwil",
+        "addr:country": "CH",
+        "addr:housenumber": "2a",
+        "addr:postcode": "8340",
+        "addr:street": "Alte Zihlstrasse",
+        "amenity": "library",
+        "contact:email": "mediothek@hinwil.ch",
+        "contact:phone": "+41 44 937 10 26",
+        "contact:website": "http://www.bibliotheken-zh.ch/Hinwil",
+        "name": "Mediothek",
+        "opening_hours": "Mo,Th 17:00-20:00; Tu,Fr 09:00-11:00,14:00-18:00; Sa 10:00-12:00",
+        "opening_hours:holydays": "Th 17:00-20:00; Sa 10:00-12:00",
+        "operator": "Gemeinde Hinwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8423714,
+          47.3003352
+        ]
+      },
+      "id": "node/3314274507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3387701318",
+        "addr:city": "Uster",
+        "addr:country": "CH",
+        "addr:housenumber": "17",
+        "addr:postcode": "8610",
+        "addr:street": "Bahnhofstrasse",
+        "amenity": "library",
+        "contact:email": "stadtarchiv@uster.ch",
+        "contact:phone": "+41 44 944 72 24",
+        "contact:website": "http://www.uster.ch/de/politikverwaltung/verwaltungn/unterinstanzen/welcome.php?amt_id=11723",
+        "designation": "Archive",
+        "name": "Stadtarchiv & Kläui Bibliothek",
+        "opening_hours": "\"auf Anfrage\"",
+        "operator": "Stadt Uster",
+        "ref:isil": "CH-000629-9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7191063,
+          47.3486112
+        ]
+      },
+      "id": "node/3387701318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3387706567",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "8092",
+        "addr:street": "Sonneggstrasse",
+        "amenity": "library",
+        "contact:email": "erdw@library.ethz.ch",
+        "contact:phone": "+41 44 632 25 60",
+        "contact:website": "http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/Bibliothek-Erdwissenschaften",
+        "name": "Bibliothek Erdwissenschaften",
+        "operator": "ETH-Bibliothek",
+        "ref:isil": "CH-000516-5",
+        "source": "http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/Bibliothek-Erdwissenschaften"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5473008,
+          47.3785235
+        ]
+      },
+      "id": "node/3387706567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3387714331",
+        "addr:city": "Zürich",
+        "addr:housenumber": "397",
+        "addr:postcode": "8053",
+        "addr:street": "Witikonerstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 381 64 77",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/witikon/",
+        "name": "Pestalozzi-Bibliothek Witikon",
+        "opening_hours": "Tu 14:00-19:00; We 10:00-12:00, 14:00-18:00; Th-Fr 14:00-18:00; Sa 10:00-15:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Witikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5934586,
+          47.3598646
+        ]
+      },
+      "id": "node/3387714331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3434503075",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "190",
+        "addr:postcode": "8057",
+        "addr:street": "Winterthurerstrasse",
+        "amenity": "library",
+        "contact:email": "geobib@geo.uzh.ch",
+        "contact:phone": "+41 44 635 51 15",
+        "contact:website": "http://www.geo.uzh.ch/de/bibliothek",
+        "name": "Bibliothek, Geographisches Institut",
+        "opening_hours": "08:15-17:00",
+        "operator": "Geographisches Institut Universität Zürich",
+        "ref:isil": "CH-000376-2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5492556,
+          47.3963374
+        ]
+      },
+      "id": "node/3434503075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3471905983",
+        "addr:city": "Männedorf",
+        "addr:country": "CH",
+        "addr:housenumber": "60",
+        "addr:postcode": "8708",
+        "addr:street": "Haldenstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@maennedorf.ch",
+        "contact:phone": "+41 44 9202248",
+        "contact:website": "http://www.maennedorf.ch/schule/de/bibliothek/",
+        "name": "Bibliothek Männedorf",
+        "opening_hours": "Mo,Fr 15:30-17:30; Tu,Th 19:00-21:00; We 10:00-12:00,15:30-17:30; Sa,Su 10:00-12:00",
+        "opening_hours:holidays": "Tu 19:00-21:00; Fr 15:30-17:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7011079,
+          47.2549052
+        ]
+      },
+      "id": "node/3471905983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3483897062",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "8001",
+        "addr:street": "Neumarkt",
+        "amenity": "library",
+        "name": "Baugeschichtliches Archiv",
+        "opening_hours": "Mo 13:00-17:00; Tu-Fr 08:00-17:00",
+        "operator": "Stadt Zürich, Hochbaudepartement",
+        "website": "https://www.stadt-zuerich.ch/hbd/de/index/archaeologie_denkmalpflege_u_baugeschichte/baugeschichte.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5457593,
+          47.372393
+        ]
+      },
+      "id": "node/3483897062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3489098698",
+        "addr:city": "Wildberg",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8489",
+        "addr:street": "Hauptstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@schuwi.ch",
+        "contact:phone": "+41 52 385 26 05",
+        "contact:website": "http://www.schuwi.ch/Schul-und-Gemeindebibliothek/",
+        "fixme": "Position unbekannt",
+        "name": "Schul- und Gemeindebibliothek",
+        "opening_hours": "Tu 15:30-17:00; We,Sa 09:00-10:30; Th 18:30-20:00; SH Th 18:30-20:00; PH off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8281924,
+          47.4074905
+        ]
+      },
+      "id": "node/3489098698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3600966508",
+        "amenity": "library",
+        "name": "Bibliothek",
+        "opening_hours": "Tu 18:30-20:30; Th 09:00-11:00,18:00-20:00; SH Th 18:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8265695,
+          47.5400578
+        ]
+      },
+      "id": "node/3600966508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813086055",
+        "addr:city": "Wädenswil",
+        "addr:country": "CH",
+        "addr:housenumber": "21",
+        "addr:postcode": "8820",
+        "addr:street": "Schönenbergstrasse",
+        "amenity": "library",
+        "contact:email": "stadtbibliothek@waedenswil.ch",
+        "contact:phone": "+41 44 789 75 50",
+        "contact:website": "http://www.waedenswil.ch/de/verwaltung/abteilungendienst/welcome.php?amt_id=10804",
+        "name": "Stadtbibliothek Wädenswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6720143,
+          47.2281679
+        ]
+      },
+      "id": "node/3813086055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3854196527",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "8006",
+        "addr:street": "Karl Schmid-Strasse",
+        "amenity": "library",
+        "contact:email": "hsbib@hist.uzh.ch",
+        "contact:phone": "+41 44 634 38 80",
+        "contact:website": "http://www.hist.uzh.ch/de/bibliotheken/hsbib.html",
+        "level": "2",
+        "name": "Historisches Seminar Bibliothek",
+        "ref:isil": "CH-000707-7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5479467,
+          47.3752254
+        ]
+      },
+      "id": "node/3854196527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890869989",
+        "amenity": "library",
+        "name": "Gemeindebibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5207159,
+          47.4763963
+        ]
+      },
+      "id": "node/3890869989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4089670858",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "107",
+        "addr:postcode": "8008",
+        "addr:street": "Zollikerstrasse",
+        "amenity": "library",
+        "contact:email": "biblbot@systbot.uzh.ch",
+        "contact:phone": "+41 44 634 84 14",
+        "contact:website": "http://www.botlib.uzh.ch/de.html",
+        "name": "Bibliothek der Institute für Systematische Botanik und für Pflanzenbiologie",
+        "opening_hours": "Mo-Th 09:00-12:30,13:30-17:00",
+        "operator": "Unversität Zürich",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5595046,
+          47.3588388
+        ]
+      },
+      "id": "node/4089670858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4155910289",
+        "addr:city": "Kyburg",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8314",
+        "addr:street": "Allmendstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothekkyburg@bluewin.ch",
+        "contact:phone": "*",
+        "contact:website": "https://www.ilef.ch/verein/gemeinde-und-schulbibliothek-kyburg/",
+        "name": "Gemeinde- und Schulbibliothek Kyburg",
+        "operator": "Gemeinde Kyburg",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7442927,
+          47.455377
+        ]
+      },
+      "id": "node/4155910289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4155941043",
+        "addr:city": "Wetzikon (ZH)",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "8620",
+        "addr:street": "Kirchgasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@wetzikon.ch",
+        "contact:phone": "+41 44 931 23 70",
+        "contact:website": "https://www.wetzikon.ch/stadtleben/bibliothek",
+        "name": "Bibliothek Wetzikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7972452,
+          47.3264134
+        ]
+      },
+      "id": "node/4155941043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4430009889",
+        "addr:city": "Wettswil",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "8907",
+        "addr:street": "Dettenbühlstrasse",
+        "amenity": "library",
+        "contact:email": "wettswil@bibinetz.ch",
+        "contact:phone": "+41 44 700 39 37",
+        "contact:website": "http://www.bibliothek-wettswil.ch",
+        "name": "Bibliothek Wettswil",
+        "name:de": "Schul- und Gemeindebibliothek Wettswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4730538,
+          47.3391524
+        ]
+      },
+      "id": "node/4430009889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4468111183",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "6",
+        "addr:postcode": "8400",
+        "addr:street": "Obere Kirchgasse",
+        "amenity": "library",
+        "contact:email": "stadtbibliothek@win.ch",
+        "contact:phone": "052 267 51 48",
+        "contact:website": "http://bibliotheken.winterthur.ch/stadtbibliothek/oeffnungszeiten-kontakt/",
+        "internet_access:fee": "no",
+        "name": "Stadtbibliothek Winterthur",
+        "operator": "Stadt Winterthur",
+        "ref:isil": "CH-000084-8",
+        "wheelchair": "yes",
+        "wikidata": "Q2585160",
+        "wikipedia": "de:Winterthurer Bibliotheken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7295315,
+          47.4986744
+        ]
+      },
+      "id": "node/4468111183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472488146",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "20",
+        "addr:postcode": "8004",
+        "addr:street": "Norastrasse",
+        "amenity": "library",
+        "contact:phone": "+41 43 311 28 40",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/hardau/",
+        "name": "Pestalozzi-Bibliothek Hardau",
+        "opening_hours": "Tu-Fr 14:00-19:00; Sa 10:00-16:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Hardau",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.508775,
+          47.3803106
+        ]
+      },
+      "id": "node/4472488146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472523737",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "25",
+        "addr:postcode": "8046",
+        "addr:street": "Bodenacker",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 371 43 41",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/affoltern/",
+        "name": "Pestalozzi-Bibliothek Affoltern",
+        "opening_hours": "Tu 14:00-19:00; We-Fr 14:00-18:00; Sa 10:00-14:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Affoltern",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5108574,
+          47.4245325
+        ]
+      },
+      "id": "node/4472523737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472557764",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "93",
+        "addr:postcode": "8008",
+        "addr:street": "Seefeldstrasse",
+        "amenity": "library",
+        "contact:phone": "+41 44 383 85 20",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/riesbach/",
+        "name": "Pestalozzi-Bibliothek Riesbach",
+        "opening_hours": "Tu 14:00-19:00; We-Fr 14:00-18:00; Th 12:00-19:00; Sa 10:00-13:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "phone": "+41 44 383 85 20",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Riesbach",
+        "website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/riesbach/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5540321,
+          47.3592258
+        ]
+      },
+      "id": "node/4472557764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4472588368",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "103",
+        "addr:postcode": "8037",
+        "addr:street": "Nordstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+41 44 361 14 50",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/wipkingen/",
+        "name": "Pestalozzi-Bibliothek Wipkingen",
+        "opening_hours": "Tu, Th 15:00-19:00; We, Fr 14:00-18:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Wipkingen",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5347367,
+          47.3893308
+        ]
+      },
+      "id": "node/4472588368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4569378069",
+        "amenity": "library",
+        "name": "Schulbibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.920275,
+          47.3851227
+        ]
+      },
+      "id": "node/4569378069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4693597758",
+        "addr:country": "CH",
+        "addr:housenumber": "45",
+        "addr:street": "Ackerstrasse",
+        "amenity": "library",
+        "contact:email": "swiss@jazzorama.ch",
+        "contact:phone": "+41 44 940 19 82",
+        "contact:website": "http://www.jazzorama.ch",
+        "name": "SwissJazzOrama",
+        "operator": "SwissJazzOrama",
+        "website": "www.jazzorama.ch",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7067836,
+          47.356279
+        ]
+      },
+      "id": "node/4693597758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866378631",
+        "addr:city": "Pfungen",
+        "addr:country": "CH",
+        "addr:housenumber": "44a",
+        "addr:postcode": "8422",
+        "addr:street": "Breiteackerstrasse",
+        "amenity": "library",
+        "contact:email": "bibliothek@schulepfungen.ch",
+        "contact:phone": "+41 52 305 01 30",
+        "contact:website": "http://pfungen.biblioweb.ch/",
+        "name": "Bibliothek Pfungen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6470125,
+          47.5155338
+        ]
+      },
+      "id": "node/4866378631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869996363",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "130",
+        "addr:postcode": "8055",
+        "addr:street": "Döltschiweg",
+        "amenity": "library",
+        "contact:email": "*",
+        "contact:phone": "*",
+        "contact:website": "http://www.skbheuried.ch/",
+        "name": "Schul- und Kinderbibliothek Heuried",
+        "old_name": "Pestalozzi-Bibliothek Heuried",
+        "opening_hours": "Tu, Th 14:30-17:00; We 14:30-17:30",
+        "operator": "Verein Pro Bibliothek Heuried",
+        "ref:isil": "*"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5038419,
+          47.3674117
+        ]
+      },
+      "id": "node/4869996363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869996364",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housename": "Staatsarchiv",
+        "addr:housenumber": "170",
+        "addr:postcode": "8057",
+        "addr:street": "Winterthurerstrasse",
+        "amenity": "library",
+        "contact:email": "staatsarchivzh@ji.zh.ch",
+        "contact:phone": "+41 43 258 50 00",
+        "contact:website": "http://www.staatsarchiv.zh.ch/",
+        "name": "Staatsarchiv des Kantons Zürich, Bibliothek",
+        "opening_hours": "Tu, Th 08:00-19:00; We, Fr 08:00-17:30",
+        "operator": "Kanton Zürich",
+        "ref:isil": "CH-000033-9",
+        "wikidata": "Q2324789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5470588,
+          47.3972391
+        ]
+      },
+      "id": "node/4869996364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869996365",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "8001",
+        "addr:street": "Börsenstrasse",
+        "amenity": "library",
+        "contact:email": "library@snb.ch",
+        "contact:phone": "+41 58 631 11 50",
+        "contact:website": "https://www.snb.ch/de/ifor/public/service/id/snb_addresses_libraries_1",
+        "level": "1",
+        "name": "SNB-Bibliothek Zürich",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+        "operator": "Schweizerische Nationalbank",
+        "ref:isil": "CH-000519-7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5414433,
+          47.3682454
+        ]
+      },
+      "id": "node/4869996365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4869996366",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "17",
+        "addr:postcode": "8001",
+        "addr:street": "Zähringerstrasse",
+        "amenity": "library",
+        "contact:email": "http://www.pbz.ch/kontakt/allgemeine-anfrage/",
+        "contact:phone": "+ 41 44 204 96 90",
+        "contact:website": "http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/altstadt/",
+        "name": "Pestalozzi-Bibliothek Altstadt",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-16:00",
+        "operator": "Pestalozzi-Bibliothek Zürich",
+        "ref:isil": "CH-000083-0",
+        "short_name": "PBZ Altstadt",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544504,
+          47.3747055
+        ]
+      },
+      "id": "node/4869996366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4891960821",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "8090",
+        "addr:street": "Lagerstrasse",
+        "amenity": "library",
+        "contact:email": "forschungsbibliothek-zsg@phzh.ch",
+        "contact:phone": "+41 43 305 57 77",
+        "contact:website": "http://www.hbz.uzh.ch/bibapp/?bib=UPBEB",
+        "name": "Forschungsbibliothek Pestalozzianum",
+        "operator": "Pädagogische Hochschule",
+        "ref:isil": "CH-000997-5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5349473,
+          47.377673
+        ]
+      },
+      "id": "node/4891960821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5028728337",
+        "amenity": "library",
+        "name": "Gemeindebibliothek",
+        "name:de": "Gemeindebibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7811519,
+          47.3659761
+        ]
+      },
+      "id": "node/5028728337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168243124",
+        "addr:housenumber": "4",
+        "addr:postcode": "8952",
+        "addr:street": "Bahnhofstrasse",
+        "amenity": "library",
+        "email": "bibliothek@schlieren.ch",
+        "name": "Bibliothek Schlieren",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "phone": "0447307777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4483613,
+          47.3984343
+        ]
+      },
+      "id": "node/5168243124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5218169451",
+        "addr:city": "Zürich",
+        "addr:country": "CH",
+        "addr:housenumber": "101",
+        "addr:postcode": "8092",
+        "addr:street": "Rämistrasse",
+        "amenity": "library",
+        "contact:email": "mathbib@math.ethz.ch",
+        "contact:phone": "+41 44 632 34 01",
+        "contact:website": "https://www.math.ethz.ch/services/library.html",
+        "description": "Reference library",
+        "name": "Mathematik-Bibliothek",
+        "name:en": "Mathematics library",
+        "operator": "Departement Mathematik ETH Zürich",
+        "ref:isil": "CH-000441-2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5476809,
+          47.3760268
+        ]
+      },
+      "id": "node/5218169451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5242529196",
+        "amenity": "library",
+        "name": "Deutsches Seminar Bibliothek",
+        "operator": "Universität Zürich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5493665,
+          47.3731026
+        ]
+      },
+      "id": "node/5242529196"
+    }
+  ]
+}

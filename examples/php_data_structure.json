@@ -1,0 +1,911 @@
+string(175) "http://overpass.osm.ch/api/interpreter?[out:json];area[name='Chur']->.a;(node(area.a)[amenity=library];way(area.a)[amenity=library];rel(area.a)[amenity=library];);(._;>;);out;"
+array(4) {
+  ["version"]=>
+  float(0.6)
+  ["generator"]=>
+  string(12) "Overpass API"
+  ["osm3s"]=>
+  array(3) {
+    ["timestamp_osm_base"]=>
+    string(5) "41318"
+    ["timestamp_areas_base"]=>
+    string(5) "41307"
+    ["copyright"]=>
+    string(104) "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  }
+  ["elements"]=>
+  array(31) {
+    [0]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(506072335)
+      ["lat"]=>
+      float(46.8478637)
+      ["lon"]=>
+      float(9.5321119)
+      ["tags"]=>
+      array(13) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(1) "1"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(5) "Arcas"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(19) "arcas@bibliochur.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 252 61 40"
+        ["contact:website"]=>
+        string(34) "http://www.stadtbibliothekchur.ch/"
+        ["name"]=>
+        string(24) "Bündner Volksbibliothek"
+        ["operator"]=>
+        string(9) "Kanton GR"
+        ["ref:isil"]=>
+        string(11) "CH-001101-5"
+        ["website"]=>
+        string(79) "http://www.stadtbibliothekchur.ch/index.php/veranstaltungskalender#.Wf7Vx4iDM2w"
+      }
+    }
+    [1]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(1352911640)
+      ["lat"]=>
+      float(46.8506533)
+      ["lon"]=>
+      float(9.5326608)
+      ["tags"]=>
+      array(11) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(1) "8"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(13) "Storchengasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(20) "info@vossa-lingua.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 250 72 91"
+        ["contact:website"]=>
+        string(29) "http://www.freieferse.com/vl/"
+        ["name"]=>
+        string(53) "Vossa Lingua - Interkulturelle Bibliothek Graubünden"
+        ["operator"]=>
+        string(19) "Verein Vossa Lingua"
+      }
+    }
+    [2]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(1984334648)
+      ["lat"]=>
+      float(46.853014)
+      ["lon"]=>
+      float(9.5124802)
+      ["tags"]=>
+      array(17) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "57"
+        ["addr:place"]=>
+        string(41) "http://sws.geonames.org/2661169/about.rdf"
+        ["addr:postcode"]=>
+        string(4) "7004"
+        ["addr:street"]=>
+        string(19) "Pulvermühlestrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(21) "bibliothek@htwchur.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 286 24 33"
+        ["contact:website"]=>
+        string(56) "http://www.htwchur.ch/services/fuer-alle/bibliothek.html"
+        ["name"]=>
+        string(37) "HTW Chur Bibliothek, Standort Technik"
+        ["operator"]=>
+        string(47) "Hochschule für Technik und Wirtschaft HTW Chur"
+        ["ref:isil"]=>
+        string(11) "CH-001428-5"
+        ["website"]=>
+        string(56) "http://www.htwchur.ch/services/fuer-alle/bibliothek.html"
+        ["wheelchair"]=>
+        string(3) "yes"
+        ["wikidata"]=>
+        string(8) "Q1622220"
+        ["wikipedia"]=>
+        string(46) "de:Hochschule für Technik und Wirtschaft Chur"
+      }
+    }
+    [3]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(2007372220)
+      ["lat"]=>
+      float(46.8608131)
+      ["lon"]=>
+      float(9.5283333)
+      ["tags"]=>
+      array(14) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "17"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(16) "Aspermontstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(23) "aspermont@bibliochur.ch"
+        ["name"]=>
+        string(40) "Stadtbibliothek Chur, Standort Aspermont"
+        ["name:it"]=>
+        string(32) "Biblioteca della Città di Coira"
+        ["name:rm"]=>
+        string(31) "Biblioteca da la citad da Cuira"
+        ["operator"]=>
+        string(9) "Kanton GR"
+        ["phone"]=>
+        string(16) "+41 81 284 80 36"
+        ["ref:isil"]=>
+        string(11) "CH-001638-2"
+        ["website"]=>
+        string(79) "http://www.stadtbibliothekchur.ch/index.php/veranstaltungskalender#.Wf7Vx4iDM2w"
+      }
+    }
+    [4]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(2579654629)
+      ["lat"]=>
+      float(46.8672069)
+      ["lon"]=>
+      float(9.5370359)
+      ["tags"]=>
+      array(14) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:housenumber"]=>
+        string(2) "17"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(15) "Scalärastrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(17) "mediothek@phgr.ch"
+        ["contact:website"]=>
+        string(57) "https://www.phgr.ch/die-phgr/hochschulangebote/mediothek/"
+        ["name"]=>
+        string(46) "Mediothek Pädagogische Hochschule Graubünden"
+        ["operator"]=>
+        string(36) "Pädagogische Hochschule Graubünden"
+        ["phone"]=>
+        string(16) "+41 81 354 03 32"
+        ["ref:isil"]=>
+        string(11) "CH-001820-9"
+        ["toilets:wheelchair"]=>
+        string(3) "yes"
+        ["website"]=>
+        string(38) "http://www.phgr.ch/Mediothek.30.0.html"
+        ["wheelchair"]=>
+        string(3) "yes"
+      }
+    }
+    [5]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3759936238)
+      ["lat"]=>
+      float(46.8550563)
+      ["lon"]=>
+      float(9.5237494)
+      ["tags"]=>
+      array(11) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(1) "5"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(18) "Sennensteinstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(21) "beratung@adebar-gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 250 34 38"
+        ["contact:website"]=>
+        string(48) "http://adebar-gr.ch/ueber-uns/unsere-bibliothek/"
+        ["name"]=>
+        string(33) "adebar Beratungsstelle Bibliothek"
+        ["operator"]=>
+        string(17) "Fachstelle adebar"
+      }
+    }
+    [6]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3759950766)
+      ["lat"]=>
+      float(46.8567753)
+      ["lon"]=>
+      float(9.5315004)
+      ["tags"]=>
+      array(12) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "89"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(14) "Gürtelstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(14) "info@anu.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 29 46"
+        ["contact:website"]=>
+        string(71) "https://www.gr.ch/DE/institutionen/verwaltung/ekud/anu/Seiten/home.aspx"
+        ["name"]=>
+        string(48) "Amt für Natur und Umwelt Graubünden Bibliothek"
+        ["operator"]=>
+        string(28) "Amt für Natur und Umwelt GR"
+        ["website"]=>
+        string(50) "http://aleph.gr.ch/F/?func=library&sub_library=afu"
+      }
+    }
+    [7]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3759952521)
+      ["lat"]=>
+      float(46.8538638)
+      ["lon"]=>
+      float(9.5378604)
+      ["tags"]=>
+      array(13) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "14"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(11) "Loëstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(14) "info@awn.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 38 61"
+        ["contact:website"]=>
+        string(74) "https://www.gr.ch/DE/institutionen/verwaltung/bvfd/awn/Seiten/welcome.aspx"
+        ["name"]=>
+        string(54) "Amt für Wald und Naturgefahren Graubünden Bibliothek"
+        ["operator"]=>
+        string(34) "Amt für Wald und Naturgefahren GR"
+        ["ref:isil"]=>
+        string(11) "CH-001615-8"
+        ["wikidata"]=>
+        string(9) "Q33121238"
+      }
+    }
+    [8]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3759967783)
+      ["lat"]=>
+      float(46.8541957)
+      ["lon"]=>
+      float(9.538206)
+      ["tags"]=>
+      array(12) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "26"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(11) "Loëstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(14) "info@adg.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 48 50"
+        ["contact:website"]=>
+        string(111) "http://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/adg/dienstleistungen/vermitteln/Seiten/publikationen.aspx"
+        ["name"]=>
+        string(46) "Archäologischer Dienst Graubünden Bibliothek"
+        ["operator"]=>
+        string(39) "Amt für Kultur des Kantons Graubünden"
+        ["website"]=>
+        string(61) "http://aleph.gr.ch/F?func=file&file_name=login&local_base=adg"
+      }
+    }
+    [9]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3759982416)
+      ["lat"]=>
+      float(46.8545873)
+      ["lon"]=>
+      float(9.5295108)
+      ["tags"]=>
+      array(11) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(5) "42/44"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(14) "Gürtelstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(22) "bibliothek@bgs-chur.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 286 85 04"
+        ["contact:website"]=>
+        string(34) "http://www.bgs-chur.ch/bibliothek/"
+        ["name"]=>
+        string(55) "Bildungszentrum für Gesundheit und Soziales Bibliothek"
+        ["operator"]=>
+        string(3) "BGS"
+      }
+    }
+    [10]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760063875)
+      ["lat"]=>
+      float(46.851288)
+      ["lon"]=>
+      float(9.5323137)
+      ["tags"]=>
+      array(6) {
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(24) "barbara.straub@kbg.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 28 70"
+        ["contact:website"]=>
+        string(78) "http://www.buendner-kunstmuseum.ch/de/besuch/bibliothek/Seiten/Bibliothek.aspx"
+        ["name"]=>
+        string(31) "Bündner Kunstmuseum Bibliothek"
+        ["operator"]=>
+        string(14) "Kunstmuseum GR"
+      }
+    }
+    [11]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760069319)
+      ["lat"]=>
+      float(46.8542186)
+      ["lon"]=>
+      float(9.5343769)
+      ["tags"]=>
+      array(14) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "31"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(15) "Masanserstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(20) "bibliothek@bnm.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 28 41"
+        ["contact:website"]=>
+        string(37) "http://www.naturmuseum.gr.ch/384.html"
+        ["name"]=>
+        string(31) "Bündner Naturmuseum Bibliothek"
+        ["operator"]=>
+        string(39) "Amt für Kultur des Kantons Graubünden"
+        ["ref:isil"]=>
+        string(11) "CH-000959-4"
+        ["wikidata"]=>
+        string(8) "Q1020808"
+        ["wikipedia"]=>
+        string(23) "de:Bündner Naturmuseum"
+      }
+    }
+    [12]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760075975)
+      ["lat"]=>
+      float(46.8539059)
+      ["lon"]=>
+      float(9.5377822)
+      ["tags"]=>
+      array(12) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "14"
+        ["addr:postcode"]=>
+        string(4) "7001"
+        ["addr:street"]=>
+        string(11) "Loëstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(14) "info@dpg.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 27 92"
+        ["contact:website"]=>
+        string(50) "http://aleph.gr.ch/F/?func=library&sub_library=DPG"
+        ["name"]=>
+        string(36) "Denkmalpflege Graubünden Bibliothek"
+        ["operator"]=>
+        string(39) "Amt für Kultur des Kantons Graubünden"
+        ["website"]=>
+        string(85) "https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/dpg/ueberuns/Seiten/start.aspx"
+      }
+    }
+    [13]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760095634)
+      ["lat"]=>
+      float(46.8558024)
+      ["lon"]=>
+      float(9.5242596)
+      ["tags"]=>
+      array(12) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(2) "33"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(15) "Scalettastrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(19) "mediothek@gbchur.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 254 45 27"
+        ["contact:website"]=>
+        string(69) "http://www.gbchur.ch/de/intern/standorte-und-infrastruktur/mediothek/"
+        ["name"]=>
+        string(39) "Gewerbliche Berufsschule Chur Mediothek"
+        ["operator"]=>
+        string(29) "Gewerbliche Berufsschule Chur"
+        ["ref:isil"]=>
+        string(11) "CH-001583-2"
+      }
+    }
+    [14]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760151820)
+      ["lat"]=>
+      float(46.8477712)
+      ["lon"]=>
+      float(9.5290676)
+      ["tags"]=>
+      array(12) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(1) "2"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(13) "Welschdörfli"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(31) "kirchliche.mediothek@gr.kath.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 254 36 03"
+        ["contact:website"]=>
+        string(37) "http://www.gr.kath.ch/index.php?idcat"
+        ["name"]=>
+        string(32) "Kirchliche Mediothek Graubünden"
+        ["operator"]=>
+        string(89) "Katholische Landeskirche Graubünden und Evangelisch-reformierte Landeskirche Graubünden"
+        ["wikipedia"]=>
+        string(72) "de:Evangelisch-reformierte Landeskirche Graubünden#Kirchliche Mediothek"
+      }
+    }
+    [15]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760158704)
+      ["lat"]=>
+      float(46.8645569)
+      ["lon"]=>
+      float(9.5392391)
+      ["tags"]=>
+      array(8) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:housenumber"]=>
+        string(3) "170"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(11) "Loëstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(12) "info@ksgr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 256 61 11"
+        ["name"]=>
+        string(45) "Patientenbibliothek Kantonsspital Graubünden"
+      }
+    }
+    [16]=>
+    array(5) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(3760327380)
+      ["lat"]=>
+      float(46.8480069)
+      ["lon"]=>
+      float(9.5373079)
+      ["tags"]=>
+      array(17) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:housenumber"]=>
+        string(1) "7"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(23) "Alte Schanfiggerstrasse"
+        ["amenity"]=>
+        string(7) "library"
+        ["contact:email"]=>
+        string(20) "bibliothek@thchur.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 254 99 44"
+        ["contact:website"]=>
+        string(32) "http://www.thchur.ch/bibliothek/"
+        ["internet_access"]=>
+        string(3) "yes"
+        ["internet_access:fee"]=>
+        string(2) "no"
+        ["name"]=>
+        string(39) "Theologische Hochschule Chur Bibliothek"
+        ["opening_hours"]=>
+        string(27) ""Termine nach Vereinbarung""
+        ["operator"]=>
+        string(24) "Priesterseminar St. Luzi"
+        ["ref:isil"]=>
+        string(11) "CH-001105-4"
+        ["wikidata"]=>
+        string(8) "Q2418967"
+        ["wikipedia"]=>
+        string(31) "de:Theologische Hochschule Chur"
+      }
+    }
+    [17]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(4223831026)
+      ["lat"]=>
+      float(46.8468164)
+      ["lon"]=>
+      float(9.5360831)
+    }
+    [18]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(4223831027)
+      ["lat"]=>
+      float(46.8467554)
+      ["lon"]=>
+      float(9.5362431)
+    }
+    [19]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(4223831028)
+      ["lat"]=>
+      float(46.8465289)
+      ["lon"]=>
+      float(9.5360608)
+    }
+    [20]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(4223831029)
+      ["lat"]=>
+      float(46.8465874)
+      ["lon"]=>
+      float(9.5358933)
+    }
+    [21]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925722)
+      ["lat"]=>
+      float(46.8498637)
+      ["lon"]=>
+      float(9.5342712)
+    }
+    [22]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925723)
+      ["lat"]=>
+      float(46.8498788)
+      ["lon"]=>
+      float(9.5341687)
+    }
+    [23]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925725)
+      ["lat"]=>
+      float(46.8501165)
+      ["lon"]=>
+      float(9.5343508)
+    }
+    [24]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925726)
+      ["lat"]=>
+      float(46.8500327)
+      ["lon"]=>
+      float(9.5341733)
+    }
+    [25]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925727)
+      ["lat"]=>
+      float(46.8500478)
+      ["lon"]=>
+      float(9.5340706)
+    }
+    [26]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925728)
+      ["lat"]=>
+      float(46.8499434)
+      ["lon"]=>
+      float(9.5340377)
+    }
+    [27]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925729)
+      ["lat"]=>
+      float(46.8499221)
+      ["lon"]=>
+      float(9.5341823)
+    }
+    [28]=>
+    array(4) {
+      ["type"]=>
+      string(4) "node"
+      ["id"]=>
+      int(5211925744)
+      ["lat"]=>
+      float(46.8501378)
+      ["lon"]=>
+      float(9.5342064)
+    }
+    [29]=>
+    array(4) {
+      ["type"]=>
+      string(3) "way"
+      ["id"]=>
+      int(422646173)
+      ["nodes"]=>
+      array(5) {
+        [0]=>
+        int(4223831026)
+        [1]=>
+        int(4223831027)
+        [2]=>
+        int(4223831028)
+        [3]=>
+        int(4223831029)
+        [4]=>
+        int(4223831026)
+      }
+      ["tags"]=>
+      array(11) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:country"]=>
+        string(2) "CH"
+        ["addr:postcode"]=>
+        string(4) "7000"
+        ["addr:street"]=>
+        string(8) "Münzweg"
+        ["amenity"]=>
+        string(7) "library"
+        ["building"]=>
+        string(3) "yes"
+        ["contact:email"]=>
+        string(19) "mediothek@bks.gr.ch"
+        ["contact:phone"]=>
+        string(16) "+41 81 257 51 33"
+        ["contact:website"]=>
+        string(104) "http://www.gr.ch/de/institutionen/verwaltung/ekud/ahb/bks/dienstleistungen/mediothek/Seiten/default.aspx"
+        ["name"]=>
+        string(32) "Bündner Kantonsschule Mediothek"
+        ["operator"]=>
+        string(22) "Bündner Kantonsschule"
+      }
+    }
+    [30]=>
+    array(4) {
+      ["type"]=>
+      string(3) "way"
+      ["id"]=>
+      int(538468078)
+      ["nodes"]=>
+      array(9) {
+        [0]=>
+        int(5211925722)
+        [1]=>
+        int(5211925725)
+        [2]=>
+        int(5211925744)
+        [3]=>
+        int(5211925726)
+        [4]=>
+        int(5211925727)
+        [5]=>
+        int(5211925728)
+        [6]=>
+        int(5211925729)
+        [7]=>
+        int(5211925723)
+        [8]=>
+        int(5211925722)
+      }
+      ["tags"]=>
+      array(14) {
+        ["addr:city"]=>
+        string(4) "Chur"
+        ["addr:postcode"]=>
+        string(4) "7001"
+        ["addr:street"]=>
+        string(13) "Karlihofplatz"
+        ["amenity"]=>
+        string(7) "library"
+        ["building"]=>
+        string(3) "yes"
+        ["contact:email"]=>
+        string(14) "info@kbg.gr.ch"
+        ["contact:phone"]=>
+        string(15) "41 81 257 28 28"
+        ["contact:website"]=>
+        string(34) "http://www.kantonsbibliothek.gr.ch"
+        ["name"]=>
+        string(29) "Kantonsbibliothek Graubünden"
+        ["operator"]=>
+        string(9) "Kanton GR"
+        ["ref:isil"]=>
+        string(11) "CH-000070-2"
+        ["website"]=>
+        string(32) "http://aleph.gr.ch/F?RN=11260144"
+        ["wikidata"]=>
+        string(8) "Q1728089"
+        ["wikipedia"]=>
+        string(32) "de:Kantonsbibliothek Graubünden"
+      }
+    }
+  }
+}
