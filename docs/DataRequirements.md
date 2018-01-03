@@ -1,5 +1,5 @@
 # Data requirements for osm-libch output
-### Based on [this specification file (in German)](documentation/Spezifikation_OSM_Datenstruktur_definitiv_Aktualisierung_31.10.2017.pdf) 
+### Based on [this specification file (in German)](Spezifikation_OSM_Datenstruktur_definitiv_Aktualisierung_31.10.2017.pdf) 
 
 | KEY  		| VALUE | DATA TYPE  | EXAMPLE |  
 |------		|--------|-----------|---------| 
