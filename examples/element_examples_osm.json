@@ -53,3 +53,44 @@
     "ref:isil": "CH-001606-9"
   }
 },
+
+{
+  "type": "relation",
+  "id": 6705031,
+  "members": [
+    {
+      "type": "way",
+      "ref": 43334440,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 452838781,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 452838780,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "St. Gallen",
+    "addr:country": "CH",
+    "addr:housenumber": "50",
+    "addr:postcode": "9000",
+    "addr:street": "Dufourstrasse",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "bibliothek@unisg.ch",
+    "contact:phone": "+41 71 224 22 70",
+    "contact:website": "https://www.unisg.ch/de/universitaet/bibliothek",
+    "internet_access": "wlan",
+    "name": "HSG Bibliothek",
+    "name:de": "HSG Bibliothek",
+    "name:en": "HSG Library & Auditorium",
+    "operator": "Universität St. Gallen",
+    "ref:isil": "CH-000254-X",
+    "type": "multipolygon",
+    "wheelchair": "yes"
+  },
