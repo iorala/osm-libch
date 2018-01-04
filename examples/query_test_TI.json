@@ -1,0 +1,724 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "41320",
+    "timestamp_areas_base": "41307",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 695849800,
+  "lat": 46.2323169,
+  "lon": 8.7118384,
+  "tags": {
+    "addr:city": "Aurigeno",
+    "addr:country": "CH",
+    "addr:postcode": "6677",
+    "addr:street": "Casella Postale 100",
+    "amenity": "library",
+    "contact:email": "biblioteca@maggia.ch",
+    "contact:phone": "+41 91 753 14 30",
+    "contact:website": "https://www.sbt.ti.ch/biblio/fac/index.jsp?m=ini5&x=y",
+    "name": "Biblioteca comunale"
+  }
+},
+{
+  "type": "node",
+  "id": 2149631867,
+  "lat": 46.0040938,
+  "lon": 8.9596467
+},
+{
+  "type": "node",
+  "id": 2149631868,
+  "lat": 46.0044231,
+  "lon": 8.9592408
+},
+{
+  "type": "node",
+  "id": 2149631869,
+  "lat": 46.0040859,
+  "lon": 8.9594577
+},
+{
+  "type": "node",
+  "id": 2149631870,
+  "lat": 46.0043260,
+  "lon": 8.9592493
+},
+{
+  "type": "node",
+  "id": 2149631871,
+  "lat": 46.0043339,
+  "lon": 8.9594361
+},
+{
+  "type": "node",
+  "id": 2149631872,
+  "lat": 46.0044389,
+  "lon": 8.9596166
+},
+{
+  "type": "node",
+  "id": 2278293935,
+  "lat": 46.0015528,
+  "lon": 8.9771308,
+  "tags": {
+    "addr:city": "Castagnola",
+    "addr:country": "CH",
+    "addr:housename": "Casa Cattaneo",
+    "addr:housenumber": "4",
+    "addr:postcode": "6976",
+    "addr:street": "Strada di Gandria",
+    "amenity": "library",
+    "contact:email": "archiviostorico@lugano.ch",
+    "contact:fax": "+41 58 8666859",
+    "contact:phone": "+41 58 8666850",
+    "contact:website": "http://www.archiviostoricolugano.ch/",
+    "description": "Appointment only - Solo su appuntamento",
+    "name": "Archivio Storico Comunale",
+    "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00",
+    "ref:isil": "CH-001096-3"
+  }
+},
+{
+  "type": "node",
+  "id": 2453322929,
+  "lat": 46.0012345,
+  "lon": 8.9339187
+},
+{
+  "type": "node",
+  "id": 2453322940,
+  "lat": 46.0010434,
+  "lon": 8.9340502
+},
+{
+  "type": "node",
+  "id": 2453322958,
+  "lat": 46.0011166,
+  "lon": 8.9341335
+},
+{
+  "type": "node",
+  "id": 2453322971,
+  "lat": 46.0011613,
+  "lon": 8.9338354
+},
+{
+  "type": "node",
+  "id": 3057786863,
+  "lat": 45.8361407,
+  "lon": 9.0279562,
+  "tags": {
+    "addr:city": "Chiasso",
+    "addr:country": "CH",
+    "addr:housenumber": "6",
+    "addr:postcode": "6830",
+    "addr:street": "Via Vincenzo Vela",
+    "amenity": "library",
+    "name": "Cartolibro AZ",
+    "phone": "+41 91 682 83 29",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3066963108,
+  "lat": 45.8674091,
+  "lon": 8.9831232
+},
+{
+  "type": "node",
+  "id": 3066963109,
+  "lat": 45.8673363,
+  "lon": 8.9830105
+},
+{
+  "type": "node",
+  "id": 3066963110,
+  "lat": 45.8671028,
+  "lon": 8.9833270
+},
+{
+  "type": "node",
+  "id": 3066963111,
+  "lat": 45.8671215,
+  "lon": 8.9833619
+},
+{
+  "type": "node",
+  "id": 3066963112,
+  "lat": 45.8671476,
+  "lon": 8.9833941
+},
+{
+  "type": "node",
+  "id": 3066963113,
+  "lat": 45.8671868,
+  "lon": 8.9834075
+},
+{
+  "type": "node",
+  "id": 3066963114,
+  "lat": 45.8672223,
+  "lon": 8.9834075
+},
+{
+  "type": "node",
+  "id": 3066963115,
+  "lat": 45.8672709,
+  "lon": 8.9833780
+},
+{
+  "type": "node",
+  "id": 3067074484,
+  "lat": 45.8357560,
+  "lon": 9.0319193,
+  "tags": {
+    "amenity": "library",
+    "name": "Libreria"
+  }
+},
+{
+  "type": "node",
+  "id": 3239149714,
+  "lat": 46.1707504,
+  "lon": 8.7949446,
+  "tags": {
+    "addr:city": "Locarno",
+    "addr:country": "CH",
+    "addr:housenumber": "12",
+    "addr:postcode": "6600",
+    "addr:street": "Via Cappuccini",
+    "amenity": "library",
+    "contact:email": "bclo-segr.sbt@ti.ch",
+    "contact:phone": "+41 91 759 75 80",
+    "contact:website": "https://www.sbt.ti.ch/bclo/",
+    "name": "Biblioteca Cantonale di Locarno",
+    "ref:isil": "CH-000066-X"
+  }
+},
+{
+  "type": "node",
+  "id": 3255440460,
+  "lat": 45.8610902,
+  "lon": 9.0211841,
+  "tags": {
+    "addr:city": "Mendrisio",
+    "addr:country": "CH",
+    "addr:housenumber": "8",
+    "addr:postcode": "6850",
+    "addr:street": "Viale Canavee",
+    "amenity": "library",
+    "contact:email": "bfg@mendrisio.ch",
+    "contact:phone": "+41 58 688 35 63",
+    "contact:website": "http://mendrisio.ch/strutture/biblioteca-fondo-giovani-mendrisio/",
+    "name": "Biblioteca Comunale",
+    "opening_hours": "Mo 09:00-11:00,Tu 14:00-16:30, Th 18:45-20:30",
+    "source": "website and survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3265867696,
+  "lat": 45.8378403,
+  "lon": 9.0301773,
+  "tags": {
+    "addr:city": "Chiasso",
+    "addr:country": "CH",
+    "addr:housenumber": "3",
+    "addr:postcode": "6830",
+    "addr:street": "Via Alfonso Turconi",
+    "amenity": "library",
+    "contact:email": "biblioteca@chiasso.ch",
+    "contact:phone": "+41 91 682 77 19",
+    "contact:website": "http://www.centroculturalechiasso.ch/biblioteca/",
+    "name": "Biblioteca comunale di Chiasso",
+    "opening_hours": "Mo-Fr 13:30-17:30,Th 13:30-18:30",
+    "ref:isil": "CH-001100-8"
+  }
+},
+{
+  "type": "node",
+  "id": 3336274891,
+  "lat": 46.0115192,
+  "lon": 8.9572985
+},
+{
+  "type": "node",
+  "id": 3336274892,
+  "lat": 46.0115801,
+  "lon": 8.9568684
+},
+{
+  "type": "node",
+  "id": 3336274893,
+  "lat": 46.0112446,
+  "lon": 8.9567698
+},
+{
+  "type": "node",
+  "id": 3336274894,
+  "lat": 46.0111836,
+  "lon": 8.9571999
+},
+{
+  "type": "node",
+  "id": 3336274895,
+  "lat": 46.0114430,
+  "lon": 8.9571277
+},
+{
+  "type": "node",
+  "id": 3336274896,
+  "lat": 46.0113030,
+  "lon": 8.9570933
+},
+{
+  "type": "node",
+  "id": 3336274897,
+  "lat": 46.0113182,
+  "lon": 8.9569654
+},
+{
+  "type": "node",
+  "id": 3336274898,
+  "lat": 46.0114581,
+  "lon": 8.9569998
+},
+{
+  "type": "node",
+  "id": 3346488042,
+  "lat": 46.0191622,
+  "lon": 8.9729225
+},
+{
+  "type": "node",
+  "id": 3346488043,
+  "lat": 46.0192134,
+  "lon": 8.9729460
+},
+{
+  "type": "node",
+  "id": 3346488044,
+  "lat": 46.0192307,
+  "lon": 8.9728676
+},
+{
+  "type": "node",
+  "id": 3346488045,
+  "lat": 46.0192455,
+  "lon": 8.9728658
+},
+{
+  "type": "node",
+  "id": 3346488046,
+  "lat": 46.0192679,
+  "lon": 8.9727156
+},
+{
+  "type": "node",
+  "id": 3346488047,
+  "lat": 46.0192035,
+  "lon": 8.9726957
+},
+{
+  "type": "node",
+  "id": 3346488048,
+  "lat": 46.0191876,
+  "lon": 8.9728027
+},
+{
+  "type": "node",
+  "id": 3346488049,
+  "lat": 46.0191747,
+  "lon": 8.9727987
+},
+{
+  "type": "node",
+  "id": 3346488050,
+  "lat": 46.0191681,
+  "lon": 8.9728428
+},
+{
+  "type": "node",
+  "id": 3346488051,
+  "lat": 46.0191779,
+  "lon": 8.9728517
+},
+{
+  "type": "node",
+  "id": 3380264151,
+  "lat": 46.1932117,
+  "lon": 9.0122042,
+  "tags": {
+    "addr:city": "Bellinzona",
+    "addr:country": "CH",
+    "addr:housenumber": "30",
+    "addr:postcode": "6500",
+    "addr:street": "Viale Stefano Franscini",
+    "amenity": "library",
+    "contact:email": "bcb-segr.sbt@ti.ch",
+    "contact:phone": "+41 91 814 15 00",
+    "contact:website": "www.sbt.ti.ch/bcb/",
+    "name": "Biblioteca cantonale, Bellinzona",
+    "opening_hours": "Mo 17:00-21:00; Tu-Fr 10:00-19:00; Sa 09:00-13:00",
+    "ref:isil": "CH-000065-2",
+    "source": "source and website",
+    "wikidata": "Q3639627",
+    "wikipedia": "it:Biblioteca cantonale di Bellinzona"
+  }
+},
+{
+  "type": "node",
+  "id": 3387709941,
+  "lat": 46.1733975,
+  "lon": 9.0078380
+},
+{
+  "type": "node",
+  "id": 3387709942,
+  "lat": 46.1733734,
+  "lon": 9.0080259
+},
+{
+  "type": "node",
+  "id": 3387709943,
+  "lat": 46.1733000,
+  "lon": 9.0080063
+},
+{
+  "type": "node",
+  "id": 3387709944,
+  "lat": 46.1733097,
+  "lon": 9.0079307
+},
+{
+  "type": "node",
+  "id": 3387709945,
+  "lat": 46.1732615,
+  "lon": 9.0079178
+},
+{
+  "type": "node",
+  "id": 3387709946,
+  "lat": 46.1732759,
+  "lon": 9.0078055
+},
+{
+  "type": "node",
+  "id": 3409229249,
+  "lat": 46.0191715,
+  "lon": 8.9728202
+},
+{
+  "type": "node",
+  "id": 3463856546,
+  "lat": 46.1733719,
+  "lon": 9.0078312
+},
+{
+  "type": "node",
+  "id": 3676373188,
+  "lat": 46.1702281,
+  "lon": 8.7951269,
+  "tags": {
+    "addr:city": "Locarno",
+    "addr:county": "CH",
+    "addr:housenumber": "2",
+    "addr:postcode": "6600",
+    "addr:street": "Piazzetta de Capitani",
+    "amenity": "library",
+    "contact:email": "archivio.comunale@locarno.ch",
+    "contact:phone": "+41 91 756 31 90",
+    "contact:website": "http://www.locarno.ch/it/archivio-della-citta-di-locarno",
+    "name": "Archivio della Città di Locarno",
+    "operator": "Comune Locarno",
+    "ref:isil": "CH-000129-1"
+  }
+},
+{
+  "type": "node",
+  "id": 3857519245,
+  "lat": 46.0970357,
+  "lon": 8.9217992,
+  "tags": {
+    "amenity": "library"
+  }
+},
+{
+  "type": "node",
+  "id": 4213793455,
+  "lat": 45.8673475,
+  "lon": 8.9832385
+},
+{
+  "type": "node",
+  "id": 4213793456,
+  "lat": 45.8672802,
+  "lon": 8.9833673
+},
+{
+  "type": "node",
+  "id": 4213793457,
+  "lat": 45.8673617,
+  "lon": 8.9832559
+},
+{
+  "type": "node",
+  "id": 4213793458,
+  "lat": 45.8672946,
+  "lon": 8.9833811
+},
+{
+  "type": "node",
+  "id": 4335053323,
+  "lat": 46.1965387,
+  "lon": 9.0240850
+},
+{
+  "type": "node",
+  "id": 4335053324,
+  "lat": 46.1964455,
+  "lon": 9.0240314
+},
+{
+  "type": "node",
+  "id": 4335053325,
+  "lat": 46.1963777,
+  "lon": 9.0242774
+},
+{
+  "type": "node",
+  "id": 4335053326,
+  "lat": 46.1965058,
+  "lon": 9.0243510
+},
+{
+  "type": "node",
+  "id": 4335053327,
+  "lat": 46.1965585,
+  "lon": 9.0241597
+},
+{
+  "type": "node",
+  "id": 4335053328,
+  "lat": 46.1965236,
+  "lon": 9.0241396
+},
+{
+  "type": "way",
+  "id": 204984601,
+  "nodes": [
+    2149631868,
+    2149631872,
+    2149631867,
+    2149631869,
+    2149631871,
+    2149631870,
+    2149631868
+  ],
+  "tags": {
+    "addr:city": "Lugano",
+    "addr:country": "CH",
+    "addr:housenumber": "6",
+    "addr:postcode": "6900",
+    "addr:street": "Viale Carlo Cattaneo",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "bclu-segr.sbt@ti.ch",
+    "contact:phone": "+41 91 815 4611",
+    "contact:website": "https://www.sbt.ti.ch/bclu/",
+    "name": "Biblioteca Cantonale di Lugano",
+    "ref:isil": "CH-000069-1",
+    "wikidata": "Q678331",
+    "wikipedia": "it:Biblioteca cantonale di Lugano"
+  }
+},
+{
+  "type": "way",
+  "id": 237435119,
+  "nodes": [
+    2453322929,
+    2453322958,
+    2453322940,
+    2453322971,
+    2453322929
+  ],
+  "tags": {
+    "amenity": "library",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 302437882,
+  "nodes": [
+    3066963108,
+    3066963109,
+    3066963110,
+    3066963111,
+    3066963112,
+    3066963113,
+    3066963114,
+    3066963115,
+    4213793456,
+    4213793458,
+    4213793457,
+    4213793455,
+    3066963108
+  ],
+  "tags": {
+    "addr:city": "Mendrisio",
+    "addr:country": "CH",
+    "addr:postcode": "6850",
+    "addr:street": "Via Alfonso Turconi",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "info-biblioteca.me@usi.ch",
+    "contact:phone": "+41 58 666 5910",
+    "contact:website": "http://biblio.arc.usi.ch",
+    "name": "Biblioteca Accademia di architettura",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-17:00",
+    "operator": "USI",
+    "ref:isil": "CH-000139-8",
+    "wikidata": "Q3604019",
+    "wikipedia": "it:Accademia di Architettura di Mendrisio"
+  }
+},
+{
+  "type": "way",
+  "id": 326918536,
+  "nodes": [
+    3336274891,
+    3336274892,
+    3336274893,
+    3336274894,
+    3336274891
+  ]
+},
+{
+  "type": "way",
+  "id": 326918537,
+  "nodes": [
+    3336274895,
+    3336274896,
+    3336274897,
+    3336274898,
+    3336274895
+  ]
+},
+{
+  "type": "way",
+  "id": 327838688,
+  "nodes": [
+    3346488042,
+    3346488043,
+    3346488044,
+    3346488045,
+    3346488046,
+    3346488047,
+    3346488048,
+    3346488049,
+    3409229249,
+    3346488050,
+    3346488051,
+    3346488042
+  ],
+  "tags": {
+    "amenity": "library",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 331670101,
+  "nodes": [
+    3387709941,
+    3387709942,
+    3387709943,
+    3387709944,
+    3387709945,
+    3387709946,
+    3463856546,
+    3387709941
+  ],
+  "tags": {
+    "addr:city": "Giubiasco",
+    "addr:country": "CH",
+    "addr:housenumber": "3",
+    "addr:postcode": "6512",
+    "addr:street": "Viale 1814",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "biblioteca@giubiasco.ch",
+    "contact:phone": "+41 91 857 30 70",
+    "contact:website": "http://www.giubiasco.ch/amministrazione-2-2/settore-educazione/biblioteca-comunale/",
+    "name": "Biblioteca Comunale Giubiasco"
+  }
+},
+{
+  "type": "way",
+  "id": 435601699,
+  "nodes": [
+    4335053323,
+    4335053324,
+    4335053325,
+    4335053326,
+    4335053327,
+    4335053328,
+    4335053323
+  ],
+  "tags": {
+    "addr:city": "Bellinzona",
+    "addr:country": "CH",
+    "addr:housenumber": "14",
+    "addr:postcode": "6500",
+    "addr:street": "Via Luigi Lavizzari",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "biblioteca@bellinzona.ch",
+    "contact:phone": "+41 91 821 86 46",
+    "contact:website": "https://www.bellinzona.ch/index.php?node=34&lng=1&rif=a954e638ad",
+    "name": "Biblioteca comunale",
+    "ref:isil": "CH-001043-X"
+  }
+},
+{
+  "type": "relation",
+  "id": 4567680,
+  "members": [
+    {
+      "type": "way",
+      "ref": 326918536,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 326918537,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "addr:city": "Lugano",
+    "addr:country": "CH",
+    "addr:housenumber": "13",
+    "addr:postcode": "6900",
+    "addr:street": "Via Giuseppe Buffi",
+    "amenity": "library",
+    "building": "yes",
+    "contact:email": "library.lu@usi.ch",
+    "contact:phone": "+41 58 666 45 00",
+    "contact:website": "https://it.bul.sbu.usi.ch/",
+    "name": "Biblioteca USI",
+    "ref:isil": "CH-000342-4",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
