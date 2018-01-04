@@ -3,7 +3,7 @@
 // Query funtion using the swiss overpass API interpreter for OSM
 // Returns an Array
 function query($query) {
-	$overpass = 'http://overpass.osm.ch/api/interpreter?'.preg_replace("/\s+/", "", $query);
+	$overpass = 'http://overpass.osm.ch/api/interpreter?'.preg_replace("/\s+/", "", $query); // replacing all the whitespaces from query
 	$html = file_get_contents($overpass);
 	$result = json_decode($html, true); // "true" to get PHP array instead of an object
 
@@ -11,9 +11,9 @@ function query($query) {
 }
 
 // Query test function using local file instead of the overpass API
-// The testing file contains all libraries from the canton ticino. The libraries use ways, rels and nodes.
 function query_test($query) {
-	$overpass = 'query_local.json';
+	//$overpass = 'examples/query_test_TI.json'; // Small file containing all libraries from the canton ticino using ways, rels and nodes.
+	$overpass = 'examples/query_test_CH.json'; // File containing all swiss libraries
 	$html = file_get_contents($overpass);
 	$result = json_decode($html, true); // "true" to get PHP array instead of an object
 
