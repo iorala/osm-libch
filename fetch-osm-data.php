@@ -14,8 +14,13 @@ require_once 'functions.lib.php';
 
 
 // Main loop for getting the data from all cantons 
-
 foreach ($cantons as $canton) {
+
+	// reset variables
+
+	unset($libraries);
+	unset($empty_elements);
+	unset($transformed_data);
 
 	// Prepare overpass query
 	// The query looks for all nodes, ways and rels in an area
@@ -30,7 +35,7 @@ foreach ($cantons as $canton) {
 	  (._;>;);
 	  out;";
 	
-	$result = query_test($query);
+	$result = query($query);
 
 	// Separating libraries from empty ways and nodes (used for resolving ways and relations) 
 	foreach ($result['elements'] as $element => $content) {
@@ -47,20 +52,17 @@ foreach ($cantons as $canton) {
 	$transformed_data = transform_data($libraries, $tags, $empty_elements);
 
 	// get the number of libraries per canton
-    $library_count[$canton] = count($transformed_data) - $oldcount;
+	
+    $library_count[$canton] = count($transformed_data);
 
-    // Keep the old count to calculate the libraries for each canton
-
-    $oldcount = count($transformed_data);
-
-	// Dumping the cantons data for test purposes 
-	// echo $canton . ": \n" ;
-	// var_dump($transformed_data);
-	// echo "\n------\n";
+	//Dumping the cantons data for test purposes 
+	echo $canton . ": \n" ;
+	var_dump($transformed_data);
+	echo "\n------\n";
 
 }
 
-// Dumping the libraries per canton 
+// Dumping the number of libraries per canton 
 var_dump($library_count)
 
 ?>

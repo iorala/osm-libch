@@ -12,8 +12,8 @@ function query($query) {
 
 // Query test function using local file instead of the overpass API
 function query_test($query) {
-	//$overpass = 'examples/query_test_TI.json'; // Small file containing all libraries from the canton ticino using ways, rels and nodes.
-	$overpass = 'examples/query_test_CH.json'; // File containing all swiss libraries
+	$overpass = 'examples/query_test_TI.json'; // Small file containing all libraries from the canton ticino using ways, rels and nodes.
+	//$overpass = 'examples/query_test_CH.json'; // File containing all swiss libraries
 	$html = file_get_contents($overpass);
 	$result = json_decode($html, true); // "true" to get PHP array instead of an object
 
