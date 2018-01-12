@@ -6,7 +6,6 @@ function query($query) {
 	$overpass = 'http://overpass.osm.ch/api/interpreter?'.preg_replace("/\s+/", "", $query); // replacing all the whitespaces from query
 	$html = file_get_contents($overpass);
 	$result = json_decode($html, true); // "true" to get PHP array instead of an object
-
 	return $result;
 }
 
@@ -16,7 +15,6 @@ function query_test($query) {
 	//$overpass = 'examples/query_test_CH.json'; // File containing all swiss libraries
 	$html = file_get_contents($overpass);
 	$result = json_decode($html, true); // "true" to get PHP array instead of an object
-
 	return $result;
 }
 
@@ -32,18 +30,26 @@ function select_tags($tag_element,$tags) {
 
 // Function resolving way elements. It returns the coordinates of the first node
 function resolve_way($way_elements, $empty_elements) {
+	//var_dump($way_elements);
 	$first_node = $way_elements[0];
+	//var_dump($first_node);
+	//echo "\n------\n";
 	$return_value["lat"] = $empty_elements[$first_node]["lat"];
 	$return_value["lon"] = $empty_elements[$first_node]["lon"];
 
 	return $return_value;
 }
 
-// Funtion for resolving relations. It returns the coordinates of the first node of the first way of the relation.
-function resolve_relation($rel_elements, $empty_elements) {
+// Function for resolving relations. It returns the coordinates of the first node of the first way of the relation.
+function resolve_rel($rel_elements, $empty_elements) {
+	//var_dump($rel_elements);
 	$first_way = $rel_elements[0];
-	$return_value = $resolve_relation($rel_elements["nodes"], $empty_elements);
-
+	//var_dump($first_way);
+	//echo "\n------\n";
+	//var_dump($empty_elements[$first_way["ref"]]["nodes"]);
+	$return_value = resolve_way($empty_elements[$first_way["ref"]]["nodes"], $empty_elements);
+	//echo "Relation: ";
+	//var_dump($return_value); 
 	return $return_value;
 }
 
@@ -67,11 +73,12 @@ function transform_data($libraries, $tags, $empty_elements) {
 		        $output[] = $output_tags;
 		        break;
 
-		    case "rel":
+		    case "relation":
 		    	$output_tags = select_tags($content["tags"],$tags);  
-		    	$output_coordinates = resolve_relation($content["members"],$empty_elements);
+		    	$output_coordinates = resolve_rel($content["members"],$empty_elements);
 		        $output_tags["lat"] = $output_coordinates["lat"]; 
-		        $output_tags["lon"] = $output_coordinates["lon"]; 
+		        $output_tags["lon"] = $output_coordinates["lon"];
+		        $output[] = $output_tags; 
 		        break;
 			}
 		}

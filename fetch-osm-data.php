@@ -3,8 +3,9 @@
 
 // Declarations: 
 // List of the cantons 
-$cantons = array("AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE", "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH" );
-
+//$cantons = array("AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE", "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH" );
+// When using query_test, only use TI
+$cantons = array("TI");
 
 // Array of the required output tags according to docs/DataRequirements
 $tags = array("amenity","name","operator","addr:postcode","addr:country","addr:city","addr:street","addr:housenumber","contact:email","contact:phone","contact:website","ref:isil ","wikipedia ","wikidata ","website ","lat","lon");
