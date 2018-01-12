@@ -51,7 +51,7 @@ E.g.
 ```
 ### Ways
 
-The datatype way is an ordered list of nodes. It can either be an open way with a direction like a road or a closed way. For the latter the first and last node are the same making it a polygon. This can either be used to described an area or a structure like a building. A way can contain meta-data in tags like nodes can. But unlike nodes a way doesn't have coordinates. Instead it contains the IDs of it's nodes, which can be empty except for their coordinates. To get the coordinates, the ID's have to be resolved and the coordinates extracted from the nodes. Quite some swiss libraries use the way object to draw the outline of their building. Which makes extracting this information necessary.
+The datatype way is an ordered list of nodes. It can either be an open way with a direction like a road or a closed way. For the latter the first and last node are the same making it a polygon. This can either be used to described an area or a structure like a building. A way can contain meta-data in tags like nodes can. But unlike nodes a way doesn't have coordinates. Instead it contains the IDs of its nodes, which can be empty except for their coordinates. To get the coordinates, the ID's have to be resolved and the coordinates extracted from the nodes. Quite some swiss libraries use the way object to draw the outline of their building. Which makes extracting this information necessary.
 
 E.g. way:
 
@@ -97,7 +97,7 @@ E.g. first empty node of the way.
 
 ### Relations
 
-The third datatype are relations. They describe a relations between nodes, ways and other relations. For this they contain an ordered member list of their elements. They are a very versatile element of OSM and have different uses. In the context of buildings they can be used to map multi-polygons. E.g. buildings with several unconnected parts or containing courtyards. For the latter the members of a relation can have roles like inner or outer (walls). Relations don't have coordinates either, only the elements contained within them have. This requires resolving them to get the coordinates. Only two libraries in Switzerland currently use this datatype: The HSG library in St. Gallen an the library of the USI in Lugano.
+The third datatype are relations. They describe the relation between nodes, ways and other relations. For this they contain an ordered member list of their elements. They are a very versatile element of OSM and have different uses. In the context of buildings they can be used to map multi-polygons. E.g. buildings with several unconnected parts or containing courtyards. For the latter the members of a relation can have roles like inner or outer (walls). Relations don't have coordinates either, only the elements contained within them have. This requires resolving them to get the coordinates. Only two libraries in Switzerland currently use this datatype: The HSG library in St. Gallen an the library of the USI in Lugano.
 
 E.g. 
 
