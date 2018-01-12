@@ -69,7 +69,7 @@ function transform_data($libraries, $tags, $empty_elements) {
 
 		    case "rel":
 		    	$output_tags = select_tags($content["tags"],$tags);  
-		    	$output_coordinates = resolve_rel($content["members"],$empty_elements);
+		    	$output_coordinates = resolve_relation($content["members"],$empty_elements);
 		        $output_tags["lat"] = $output_coordinates["lat"]; 
 		        $output_tags["lon"] = $output_coordinates["lon"]; 
 		        break;

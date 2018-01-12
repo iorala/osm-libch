@@ -5,6 +5,7 @@
 // List of the cantons 
 $cantons = array("AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE", "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH" );
 
+
 // Array of the required output tags according to docs/DataRequirements
 $tags = array("amenity","name","operator","addr:postcode","addr:country","addr:city","addr:street","addr:housenumber","contact:email","contact:phone","contact:website","ref:isil ","wikipedia ","wikidata ","website ","lat","lon");
 
@@ -21,6 +22,7 @@ foreach ($cantons as $canton) {
 	unset($libraries);
 	unset($empty_elements);
 	unset($transformed_data);
+	$empty_elements = array();
 
 	// Prepare overpass query
 	// The query looks for all nodes, ways and rels in an area
@@ -35,7 +37,7 @@ foreach ($cantons as $canton) {
 	  (._;>;);
 	  out;";
 	
-	$result = query($query);
+	$result = query_test($query);
 
 	// Separating libraries from empty ways and nodes (used for resolving ways and relations) 
 	foreach ($result['elements'] as $element => $content) {
