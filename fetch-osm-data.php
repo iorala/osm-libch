@@ -99,7 +99,10 @@ foreach ($cantons as $canton) {
 
 
 
-// Dumping the number of libraries per canton 
-var_dump($library_count)
+// Dumping the number of libraries per canton in txt
+	$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
+	
+	$file = 'libs/library_count.txt';
+	file_put_contents($file, $canton_count);
 
 ?>
