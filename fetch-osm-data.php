@@ -84,14 +84,14 @@ foreach ($cantons as $canton) {
 		$libnumb = $count + 1;
 		$city = "";
 		//$city = $transformed_data[$count]["addr:city"]; //includes the city in the filename, 
-		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); 
+		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
 		$file = "libs/library" . $libnumb . "_" . $canton . ".txt";
 		file_put_contents($file, $arrlib);
 		}
 	}
 	
 	//Overall output for libraries
-	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 	
 	$file = 'libs/library.txt';
 	file_put_contents($file, $data_libs);

@@ -712,8 +712,9 @@
     "amenity": "library",
     "building": "yes",
     "contact:email": "library.lu@usi.ch",
-    "contact:phone": "+41 58 666 45 00",
+    "contact:phone": " 📞  +41 58 666 45 00",
     "contact:website": "https://it.bul.sbu.usi.ch/",
+    "operator": "Unicode Test: 🦄  Ätzende Einhörñer ſind häuﬁg überßewertet",
     "name": "Biblioteca USI",
     "ref:isil": "CH-000342-4",
     "type": "multipolygon"
