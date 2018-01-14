@@ -8,12 +8,10 @@
 $cantons = array("TI");
 
 // Array of the required output tags according to docs/DataRequirements
-$tags = array("amenity","name","operator","addr:postcode","addr:country","addr:city","addr:street","addr:housenumber","contact:email","contact:phone","contact:website","ref:isil ","wikipedia ","wikidata ","website ","lat","lon");
+$tags = array("amenity","name","operator","addr:postcode","addr:country","addr:city","addr:street","addr:housenumber","contact:email","contact:phone","contact:website","ref:isil","wikipedia ","wikidata ","website ","lat","lon");
 
 // Import required functions 
 require_once 'functions.lib.php';
-
-
 
 // Main loop for getting the data from all cantons 
 foreach ($cantons as $canton) {
