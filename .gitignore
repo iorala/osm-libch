@@ -35,3 +35,6 @@ GitHub.sublime-settings
 
 # php error log
 php_errors.log
+
+# exclude skript output 
+libs/

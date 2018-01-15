@@ -56,14 +56,39 @@ foreach ($cantons as $canton) {
 	
     $library_count[$canton] = count($transformed_data);
 
-	//Dumping the cantons data for test purposes 
-	echo $canton . ": \n" ;
-	var_dump($transformed_data);
-	echo "\n------\n";
 
-}
+	//Output data Browser
 
-// Dumping the number of libraries per canton 
-var_dump($library_count)
+	foreach ($transformed_data as $element) {
+		echo $canton . "<br />";
+		foreach($element as $key => $value){
+			echo $key." ".$value."<br />";
+			}
+		}
+	
+	//Counts the libraries
+	$libcount = count($transformed_data);
+	
+	//Output, separated for each library
+		$output = array_slice($transformed_data, 0, $libcount); //choses the correct array
+		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
+		$file = "libs/library" . "_" . $canton . ".txt";
+		file_put_contents($file, $arrlib);
+	}
+	
+	//Overall output for libraries
+	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+	
+	$file = 'libs/library.txt';
+	file_put_contents($file, $data_libs);
+
+
+
+
+// Dumping the number of libraries per canton in txt
+	$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
+	
+	$file = 'libs/library_count.txt';
+	file_put_contents($file, $canton_count);
 
 ?>
