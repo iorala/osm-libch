@@ -67,27 +67,15 @@ foreach ($cantons as $canton) {
 			echo $key." ".$value."<br />";
 			}
 		}
-
-/*	//Dumping the cantons data for test purposes 
-	echo $canton . ": \n" ;
-	var_dump($transformed_data);
-	echo "\n------\n";		
-	//Output for all libraries
-*/	
 	
 	//Counts the libraries
 	$libcount = count($transformed_data);
 	
 	//Output, separated for each library
-	for ($count = 0; $count < $libcount; $count++) {
-		$output = array_slice($transformed_data, $count, 1); //choses the correct array
-		$libnumb = $count + 1;
-		$city = "";
-		//$city = $transformed_data[$count]["addr:city"]; //includes the city in the filename, 
+		$output = array_slice($transformed_data, 0, $libcount); //choses the correct array
 		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
-		$file = "libs/library" . $libnumb . "_" . $canton . ".txt";
+		$file = "libs/library" . "_" . $canton . ".txt";
 		file_put_contents($file, $arrlib);
-		}
 	}
 	
 	//Overall output for libraries
