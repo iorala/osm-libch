@@ -84,14 +84,14 @@ foreach ($cantons as $canton) {
 	//Output, separated for each library
 		$output = array_slice($transformed_data, 0, $libcount); //choses the correct array
 		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
-		$file = "libs/library" . "_" . $canton . ".txt";
+		$file = "libs/library" . "_" . $canton . ".json";
 		file_put_contents($file, $arrlib);
 	}
 	
 	//Overall output for libraries
 	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 	
-	$file = 'libs/library.txt';
+	$file = 'libs/library.json';
 	file_put_contents($file, $data_libs);
 
 
@@ -100,7 +100,7 @@ foreach ($cantons as $canton) {
 // Dumping the number of libraries per canton in txt
 	$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
 	
-	$file = 'libs/library_count.txt';
+	$file = 'libs/library_count.json';
 	file_put_contents($file, $canton_count);
 
 ?>
