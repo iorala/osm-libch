@@ -4,8 +4,20 @@
 // Returns an Array
 function query($query) {
 	$overpass = 'http://overpass.osm.ch/api/interpreter?'.preg_replace("/\s+/", "", $query); // replacing all the whitespaces from query
-	$html = file_get_contents($overpass);
-	$result = json_decode($html, true); // "true" to get PHP array instead of an object
+	// Check if connection works
+	try {					
+		@$html = file_get_contents($overpass);
+		if ($html == FALSE) {
+			throw new Exception("Failed to connect to Overpass API. Please check connection and retry\n");
+		}
+
+		$result = json_decode($html, true); // "true" to get PHP array instead of an object
+
+	} catch (Exception $e) {
+		fwrite(STDERR, $e->getMessage());
+		exit(1); // exit code != 0
+	}
+
 	return $result;
 }
 
