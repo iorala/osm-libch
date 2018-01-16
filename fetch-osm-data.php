@@ -48,7 +48,7 @@ foreach ($cantons as $canton) {
 	  (._;>;);
 	  out;";
 	
-	$result = query_test($query);
+	$result = query($query); // change to 'query_test($query)' for testing
 
 	// Separating libraries from empty ways and nodes (used for resolving ways and relations) 
 	foreach ($result['elements'] as $element => $content) {
