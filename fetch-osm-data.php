@@ -13,6 +13,18 @@ $tags = array("amenity","name","operator","addr:postcode","addr:country","addr:c
 // Import required functions 
 require_once 'functions.lib.php';
 
+
+// Create folder for library documents
+
+if (!is_dir("libs")) {
+	if (is_file("libs")) {
+		fwrite(STDERR, "Can't create directory 'libs'. File 'libs' is in the way\n");
+		exit(1); // exit code != 0
+	} else {
+		mkdir("libs");
+	}
+}
+
 // Main loop for getting the data from all cantons 
 foreach ($cantons as $canton) {
 
