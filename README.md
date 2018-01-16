@@ -3,5 +3,5 @@ This program is written in PHP. To use this program you have to install a PHP-En
  
 + The software requires PHP 5.4+ 
 + Both exports are in the JSON-Format.
-+ To poll requests the overpass.swiss API is being used. Reason?
++ To poll requests the overpass.swiss API is being used.
 + You find this program under github/osm-libch
