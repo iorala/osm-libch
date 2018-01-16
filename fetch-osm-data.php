@@ -13,6 +13,18 @@ $tags = array("amenity","name","operator","addr:postcode","addr:country","addr:c
 // Import required functions 
 require_once 'functions.lib.php';
 
+
+// Create folder for library documents
+
+if (!is_dir("libs")) {
+	if (is_file("libs")) {
+		fwrite(STDERR, "Can't create directory 'libs'. File 'libs' is in the way\n");
+		exit(1); // exit code != 0
+	} else {
+		mkdir("libs");
+	}
+}
+
 // Main loop for getting the data from all cantons 
 foreach ($cantons as $canton) {
 
@@ -72,14 +84,14 @@ foreach ($cantons as $canton) {
 	//Output, separated for each library
 		$output = array_slice($transformed_data, 0, $libcount); //choses the correct array
 		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
-		$file = "libs/library" . "_" . $canton . ".txt";
+		$file = "libs/library" . "_" . $canton . ".json";
 		file_put_contents($file, $arrlib);
 	}
 	
 	//Overall output for libraries
 	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 	
-	$file = 'libs/library.txt';
+	$file = 'libs/library.json';
 	file_put_contents($file, $data_libs);
 
 
@@ -88,7 +100,7 @@ foreach ($cantons as $canton) {
 // Dumping the number of libraries per canton in txt
 	$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
 	
-	$file = 'libs/library_count.txt';
+	$file = 'libs/library_count.json';
 	file_put_contents($file, $canton_count);
 
 ?>
