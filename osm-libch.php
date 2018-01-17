@@ -1,17 +1,25 @@
 <?php
 // Script to fetch library data from https://overpass-turbo.osm.ch/
 
-// Declarations: 
+// Variables: 
+
+// For testing and debugging set to TRUE
+
+$test = FALSE;
+
 // List of the cantons 
-//$cantons = array("AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE", "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH" );
-// When using query_test, only use TI
-$cantons = array("TI");
+$cantons = array("AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE", "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH" );
 
 // Array of the required output tags according to docs/DataRequirements
 $tags = array("amenity","name","operator","addr:postcode","addr:country","addr:city","addr:street","addr:housenumber","contact:email","contact:phone","contact:website","ref:isil","wikipedia ","wikidata ","website ","lat","lon");
 
 // Import required functions 
 require_once 'functions.lib.php';
+
+// When testing only use data for TI
+if ($test) {
+	$cantons = array("TI");
+}
 
 
 // Create folder for library documents
@@ -48,13 +56,20 @@ foreach ($cantons as $canton) {
 	  (._;>;);
 	  out;";
 	
-	$result = query($query); // change to 'query_test($query)' for testing
+	// When testing or debugging use query_test() which relies on local data
+	if ($test) {
+		$result = query_test($query);
+	} else {
+		$result = query($query);
+	}
+	
 
 	// Separating libraries from empty ways and nodes (used for resolving ways and relations) 
+
 	foreach ($result['elements'] as $element => $content) {
-		if ($content["type"] == "node" && !isset($content['tags'])) {
+		if ($content["type"] == "node" && !isset($content['tags']['amenity'])) { 
 			$empty_elements[$content['id']] = $content; 
-		} elseif ($content["type"] == "way" && !isset($content['tags'])) {
+		} elseif ($content["type"] == "way" && !isset($content['tags']['amenity'])) {
 			$empty_elements[$content['id']] = $content; 
 		} else {
 			$libraries[] = $content;
@@ -69,38 +84,41 @@ foreach ($cantons as $canton) {
     $library_count[$canton] = count($transformed_data);
 
 
-	//Output data Browser
-
-	foreach ($transformed_data as $element) {
-		echo $canton . "<br />";
+	// Create HTML dumps for testing and debugging from a browser
+    if ($test) {
+    	foreach ($transformed_data as $element) {
+			echo $canton . "<br />\n";
 		foreach($element as $key => $value){
-			echo $key." ".$value."<br />";
+			echo $key." ".$value."<br />\n";
 			}
 		}
+    }
 	
-	//Counts the libraries
+	
+	// Count the libraries
 	$libcount = count($transformed_data);
-	
-	//Output, separated for each library
+	$total_count += $libcount;
+
+
+	// Output, separated for each library
 		$output = array_slice($transformed_data, 0, $libcount); //choses the correct array
 		$arrlib = json_encode($output, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ); 
-		$file = "libs/library" . "_" . $canton . ".json";
+		$file = "libs/libraries" . "_" . $canton . ".json";
 		file_put_contents($file, $arrlib);
 	}
 	
-	//Overall output for libraries
-	$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
-	
-	$file = 'libs/library.json';
-	file_put_contents($file, $data_libs);
+// Overall output for libraries
+$data_libs = json_encode($transformed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 
-
+$file = 'libs/libraries.json';
+file_put_contents($file, $data_libs);
 
 
 // Dumping the number of libraries per canton in txt
-	$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
-	
-	$file = 'libs/library_count.json';
-	file_put_contents($file, $canton_count);
+$library_count["Total CH"] = $total_count;
+$canton_count = json_encode($library_count, JSON_PRETTY_PRINT);
+
+$file = 'libs/library_count.json';
+file_put_contents($file, $canton_count);
 
 ?>
