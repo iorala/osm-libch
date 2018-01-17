@@ -2,7 +2,7 @@
 
 ## Purpose 
 osm-libch is a PHP script for fetching OSM Metadata of Swiss libraries. It was developed during a study project at the [HTW Chur](http://www.htwchur.ch) 
-It queries the [Swiss Overpass API](http://overpass.osm.ch/]() for all nodes, ways or relations that are tagged as library ("amenity":"library"). It does this separately for each canton. It then extracts the coordinates and selected tags and writes them in a flat JSON structure. The result is a collection of JSON files: One for each canton, as well as a compilation of all libraries. The number of libraries of each canton are also tracked. 
+It queries the [Swiss Overpass API](http://overpass.osm.ch/) for all nodes, ways or relations that are tagged as library ("amenity":"library"). It does this separately for each canton. It then extracts the coordinates and selected tags and writes them in a flat JSON structure. The result is a collection of JSON files: One for each canton, as well as a compilation of all libraries. The number of libraries of each canton are also tracked. 
 
 This data can then be used for display in a web page. 
 
