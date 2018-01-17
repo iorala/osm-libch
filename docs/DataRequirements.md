@@ -18,5 +18,7 @@
 |wikipedia | wikipedia page of the library (optional) | string | "fr:Bibliothèque de Genève"|
 |wikidata | wikidata object of the library (optional) | string | "Q670848" |
 |website | other important website related to the library: eg. repository, social media, blog ... (optional)| string | "http://biblio.arc.usi.ch" |	
-| lat | latitude of the library (only of nodes) | float | 46.5206483| 
-| lon | longitude of the library (only of nodes) | float | 6.5770502| 
+| lat | latitude of the library | float | 46.5206483| 
+| lon | longitude of the library | float | 6.5770502| 
+| id | OSM ID of the library | int | 695849800 | 
+| type | OSM Type of the library: node, way, relation (necessary for looking up the id on OSM) | int | way | 

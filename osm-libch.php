@@ -97,7 +97,7 @@ foreach ($cantons as $canton) {
 	
 	// Count the libraries
 	$libcount = count($transformed_data);
-	$total_count += $libcount;
+	@$total_count += $libcount;
 
 
 	// Output, separated for each library

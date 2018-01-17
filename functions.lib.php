@@ -73,6 +73,8 @@ function transform_data($libraries, $tags, $empty_elements) {
 		    	$output_tags = select_tags($content["tags"],$tags);        
 		        $output_tags["lat"] = $content["lat"]; 
 		        $output_tags["lon"] = $content["lon"]; 
+		        $output_tags["id"] = $content["id"];
+		        $output_tags["type"] = $content["type"];
 		        $output[] = $output_tags;
 		        break;
 
@@ -81,6 +83,8 @@ function transform_data($libraries, $tags, $empty_elements) {
 		    	$output_coordinates = resolve_way($content["nodes"],$empty_elements);  
 		        $output_tags["lat"] = $output_coordinates["lat"]; 
 		        $output_tags["lon"] = $output_coordinates["lon"]; 
+		        $output_tags["id"] = $content["id"];
+		        $output_tags["type"] = $content["type"];
 		        $output[] = $output_tags;
 		        break;
 
@@ -89,6 +93,8 @@ function transform_data($libraries, $tags, $empty_elements) {
 		    	$output_coordinates = resolve_rel($content["members"],$empty_elements);
 		        $output_tags["lat"] = $output_coordinates["lat"]; 
 		        $output_tags["lon"] = $output_coordinates["lon"];
+		        $output_tags["id"] = $content["id"];
+		        $output_tags["type"] = $content["type"];
 		        $output[] = $output_tags; 
 		        break;
 			}
